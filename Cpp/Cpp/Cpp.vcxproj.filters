@@ -34,6 +34,21 @@
     <Filter Include="소스 파일\Chapter 01\6">
       <UniqueIdentifier>{70d8aa4a-2c1d-4023-aa12-ade14e5b7728}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 02">
+      <UniqueIdentifier>{3a460128-1285-46ed-bf19-f93730121474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 02\1">
+      <UniqueIdentifier>{fbe09e0e-80ad-4e5a-90d1-c2e472976d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 02\2">
+      <UniqueIdentifier>{e7645f79-a0ef-47a9-88da-d74b4499b088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 02\3">
+      <UniqueIdentifier>{e49e2d2f-771e-4d3d-ac43-d995ba5d5e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 02\4">
+      <UniqueIdentifier>{4028cfc7-b760-4c63-ae65-79550a5ef409}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -101,6 +116,21 @@
     </ClCompile>
     <ClCompile Include="BankingSystemVer01.cpp">
       <Filter>소스 파일\Chapter 01\6</Filter>
+    </ClCompile>
+    <ClCompile Include="1. TrueAndFalse.cpp">
+      <Filter>소스 파일\Chapter 02\2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. DataTypeBool.cpp">
+      <Filter>소스 파일\Chapter 02\2</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Referen.cpp">
+      <Filter>소스 파일\Chapter 02\3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. RefArrElem.cpp">
+      <Filter>소스 파일\Chapter 02\3</Filter>
+    </ClCompile>
+    <ClCompile Include="3. RefPtr.cpp">
+      <Filter>소스 파일\Chapter 02\3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
