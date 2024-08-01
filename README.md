@@ -4,6 +4,7 @@
 
 #### 2024-08-01 Start ~ 
 
-+ Day1
-  + Chapter 01 1~6 Complete
+- Day1
+  - Chapter 01 1~6 Complete
+  - Chapter 02 1~3 Complete
 
