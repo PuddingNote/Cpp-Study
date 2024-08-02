@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\Chapter 03">
       <UniqueIdentifier>{2cc80458-c650-4e36-ab7e-50a3372c0d39}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 03\1">
+      <UniqueIdentifier>{d80b9d24-e1a7-49f6-8528-b733fb8a17a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -176,6 +179,15 @@
     </ClCompile>
     <ClCompile Include="02-4. Prac.cpp">
       <Filter>소스 파일\Chapter 02\6</Filter>
+    </ClCompile>
+    <ClCompile Include="1. RacingCar.cpp">
+      <Filter>소스 파일\Chapter 03\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. RacingCarFuncAdd.cpp">
+      <Filter>소스 파일\Chapter 03\1</Filter>
+    </ClCompile>
+    <ClCompile Include="03-1. Prac.cpp">
+      <Filter>소스 파일\Chapter 03\1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
