@@ -49,6 +49,15 @@
     <Filter Include="소스 파일\Chapter 02\4">
       <UniqueIdentifier>{4028cfc7-b760-4c63-ae65-79550a5ef409}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 02\5">
+      <UniqueIdentifier>{3763aa97-3322-41d7-bed4-40dd312de65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 02\6">
+      <UniqueIdentifier>{7077992f-bfe6-41fc-b2ab-8ca475f6b21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 03">
+      <UniqueIdentifier>{2cc80458-c650-4e36-ab7e-50a3372c0d39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -63,13 +72,13 @@
     <ClCompile Include="4. StringIO.cpp">
       <Filter>소스 파일\Chapter 01\1</Filter>
     </ClCompile>
-    <ClCompile Include="01-1. Exam.cpp">
+    <ClCompile Include="01-1. Prac.cpp">
       <Filter>소스 파일\Chapter 01\1</Filter>
     </ClCompile>
     <ClCompile Include="1. FunctionOverloading.cpp">
       <Filter>소스 파일\Chapter 01\2</Filter>
     </ClCompile>
-    <ClCompile Include="01-2. Exam.cpp">
+    <ClCompile Include="01-2. Prac.cpp">
       <Filter>소스 파일\Chapter 01\2</Filter>
     </ClCompile>
     <ClCompile Include="1. DefaultValue1.cpp">
@@ -81,7 +90,7 @@
     <ClCompile Include="3. DefaultValue3.cpp">
       <Filter>소스 파일\Chapter 01\3</Filter>
     </ClCompile>
-    <ClCompile Include="01-3. Exam.cpp">
+    <ClCompile Include="01-3. Prac.cpp">
       <Filter>소스 파일\Chapter 01\3</Filter>
     </ClCompile>
     <ClCompile Include="1. InlineFunc.cpp">
@@ -108,10 +117,10 @@
     <ClCompile Include="7. NameAlias.cpp">
       <Filter>소스 파일\Chapter 01\5</Filter>
     </ClCompile>
-    <ClCompile Include="01-4. Exam-1.cpp">
+    <ClCompile Include="01-4. Prac-1.cpp">
       <Filter>소스 파일\Chapter 01\5</Filter>
     </ClCompile>
-    <ClCompile Include="01-4. Exam-2.cpp">
+    <ClCompile Include="01-4. Prac-2.cpp">
       <Filter>소스 파일\Chapter 01\5</Filter>
     </ClCompile>
     <ClCompile Include="BankingSystemVer01.cpp">
@@ -132,9 +141,45 @@
     <ClCompile Include="3. RefPtr.cpp">
       <Filter>소스 파일\Chapter 02\3</Filter>
     </ClCompile>
+    <ClCompile Include="1. RefSwap.cpp">
+      <Filter>소스 파일\Chapter 02\4</Filter>
+    </ClCompile>
+    <ClCompile Include="02-1. Prac.cpp">
+      <Filter>소스 파일\Chapter 02\4</Filter>
+    </ClCompile>
+    <ClCompile Include="2. RefReturnOne.cpp">
+      <Filter>소스 파일\Chapter 02\4</Filter>
+    </ClCompile>
+    <ClCompile Include="3. RefReturnTwo.cpp">
+      <Filter>소스 파일\Chapter 02\4</Filter>
+    </ClCompile>
+    <ClCompile Include="4. RefReturnThree.cpp">
+      <Filter>소스 파일\Chapter 02\4</Filter>
+    </ClCompile>
+    <ClCompile Include="02-2. Prac.cpp">
+      <Filter>소스 파일\Chapter 02\4</Filter>
+    </ClCompile>
+    <ClCompile Include="1. MemMalFree.cpp">
+      <Filter>소스 파일\Chapter 02\5</Filter>
+    </ClCompile>
+    <ClCompile Include="2. NewDelete.cpp">
+      <Filter>소스 파일\Chapter 02\5</Filter>
+    </ClCompile>
+    <ClCompile Include="3. NewObject.cpp">
+      <Filter>소스 파일\Chapter 02\5</Filter>
+    </ClCompile>
+    <ClCompile Include="02-3. Prac.cpp">
+      <Filter>소스 파일\Chapter 02\5</Filter>
+    </ClCompile>
+    <ClCompile Include="1. StdCPPFunc.cpp">
+      <Filter>소스 파일\Chapter 02\6</Filter>
+    </ClCompile>
+    <ClCompile Include="02-4. Prac.cpp">
+      <Filter>소스 파일\Chapter 02\6</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="01-4. Exam-3.h">
+    <ClInclude Include="01-4. Prac-3.h">
       <Filter>소스 파일\Chapter 01\5</Filter>
     </ClInclude>
   </ItemGroup>

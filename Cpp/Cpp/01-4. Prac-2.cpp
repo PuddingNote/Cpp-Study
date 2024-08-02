@@ -1,5 +1,5 @@
 #include <iostream>
-#include "01-4. exam-3.h"
+#include "01-4. Prac-3.h"
 
 void BestComTmp1::SimpleFunc(void)
 {
