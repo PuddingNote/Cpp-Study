@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\Chapter 03\1">
       <UniqueIdentifier>{d80b9d24-e1a7-49f6-8528-b733fb8a17a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 03\2">
+      <UniqueIdentifier>{da0bbb32-a9d5-4bfd-bc6e-63c49d7501c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -189,10 +192,28 @@
     <ClCompile Include="03-1. Prac.cpp">
       <Filter>소스 파일\Chapter 03\1</Filter>
     </ClCompile>
+    <ClCompile Include="3. RacingCarEnum.cpp">
+      <Filter>소스 파일\Chapter 03\1</Filter>
+    </ClCompile>
+    <ClCompile Include="4. RacingCarOuterFunc.cpp">
+      <Filter>소스 파일\Chapter 03\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. RacingCarClassBase.cpp">
+      <Filter>소스 파일\Chapter 03\2</Filter>
+    </ClCompile>
+    <ClCompile Include="4. RacingMain.cpp">
+      <Filter>소스 파일\Chapter 03\2</Filter>
+    </ClCompile>
+    <ClCompile Include="3. Car.cpp">
+      <Filter>소스 파일\Chapter 03\2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
       <Filter>소스 파일\Chapter 01\5</Filter>
+    </ClInclude>
+    <ClInclude Include="2. Car.h">
+      <Filter>소스 파일\Chapter 03\2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
