@@ -11,3 +11,6 @@
   - Chapter 02 4~6 Complete
       - 02-3 Prac 나중에 다시 보기
   - Chapter 03 ~ing
+- Day3
+  - Chapter 03 1 Complete
+  - Chapter 03 2 ~ing
