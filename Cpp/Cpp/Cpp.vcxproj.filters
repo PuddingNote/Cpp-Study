@@ -67,6 +67,15 @@
     <Filter Include="소스 파일\Chapter 03\3">
       <UniqueIdentifier>{61c5a466-075a-47ea-9661-18b389cd1b3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 04">
+      <UniqueIdentifier>{a778ab2b-347e-4934-9b07-86c417afe03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 04\1">
+      <UniqueIdentifier>{c4774c16-33ec-4fe5-881f-fd61a6443cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 04\2">
+      <UniqueIdentifier>{b96eb5db-cd2e-47ab-95e0-998a488219d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -222,6 +231,21 @@
     <ClCompile Include="1. FruitSaleSim1.cpp">
       <Filter>소스 파일\Chapter 03\3</Filter>
     </ClCompile>
+    <ClCompile Include="1. RectangleFault.cpp">
+      <Filter>소스 파일\Chapter 04\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Point-1-2.cpp">
+      <Filter>소스 파일\Chapter 04\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Rectangle-2-2.cpp">
+      <Filter>소스 파일\Chapter 04\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. RectangleFaultFind-2-3.cpp">
+      <Filter>소스 파일\Chapter 04\1</Filter>
+    </ClCompile>
+    <ClCompile Include="04-1 prac.cpp">
+      <Filter>소스 파일\Chapter 04\1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -232,6 +256,12 @@
     </ClInclude>
     <ClInclude Include="3. CarInline-1.h">
       <Filter>소스 파일\Chapter 03\2</Filter>
+    </ClInclude>
+    <ClInclude Include="2. Point-1-1.h">
+      <Filter>소스 파일\Chapter 04\1</Filter>
+    </ClInclude>
+    <ClInclude Include="2. Rectangle-2-1.h">
+      <Filter>소스 파일\Chapter 04\1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
