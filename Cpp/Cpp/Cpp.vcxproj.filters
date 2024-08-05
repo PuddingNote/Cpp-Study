@@ -31,9 +31,6 @@
     <Filter Include="소스 파일\Chapter 01\5">
       <UniqueIdentifier>{be62cfc2-90fb-4e70-923e-02658a3d9c91}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Chapter 01\6">
-      <UniqueIdentifier>{70d8aa4a-2c1d-4023-aa12-ade14e5b7728}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Chapter 02">
       <UniqueIdentifier>{3a460128-1285-46ed-bf19-f93730121474}</UniqueIdentifier>
     </Filter>
@@ -75,6 +72,21 @@
     </Filter>
     <Filter Include="소스 파일\Chapter 04\2">
       <UniqueIdentifier>{b96eb5db-cd2e-47ab-95e0-998a488219d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 04\3">
+      <UniqueIdentifier>{dd582b2c-d51d-4c0e-a63a-9dd7f811993a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 04\4">
+      <UniqueIdentifier>{a68281ff-7087-44bc-9ba7-66b8a4b2ef3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 01\6, OOP Project01">
+      <UniqueIdentifier>{70d8aa4a-2c1d-4023-aa12-ade14e5b7728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 04\5, OOP Project02">
+      <UniqueIdentifier>{b434f13e-cbf0-4a1f-8814-ea14b863d9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 05">
+      <UniqueIdentifier>{6a10fc27-c7be-4966-b4b5-e27139238afc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -142,7 +154,7 @@
       <Filter>소스 파일\Chapter 01\5</Filter>
     </ClCompile>
     <ClCompile Include="BankingSystemVer01.cpp">
-      <Filter>소스 파일\Chapter 01\6</Filter>
+      <Filter>소스 파일\Chapter 01\6, OOP Project01</Filter>
     </ClCompile>
     <ClCompile Include="1. TrueAndFalse.cpp">
       <Filter>소스 파일\Chapter 02\2</Filter>
@@ -246,6 +258,66 @@
     <ClCompile Include="04-1 prac.cpp">
       <Filter>소스 파일\Chapter 04\1</Filter>
     </ClCompile>
+    <ClCompile Include="1. Encaps1.cpp">
+      <Filter>소스 파일\Chapter 04\2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Encaps2.cpp">
+      <Filter>소스 파일\Chapter 04\2</Filter>
+    </ClCompile>
+    <ClCompile Include="04-2. Prac.cpp">
+      <Filter>소스 파일\Chapter 04\2</Filter>
+    </ClCompile>
+    <ClCompile Include="1. Constructor1.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. Constructor2.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="3. FruitSaleSim2.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="4. Point-1-2.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="4. Rectangle-2-2.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="4. RectangleConstructor-2-3.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="5. FruitSaleSim3.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="6. ReferenceMember.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="7. PrivateConstructor.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="8. Destructor.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="04-3. Prac.cpp">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ObjArr.cpp">
+      <Filter>소스 파일\Chapter 04\4</Filter>
+    </ClCompile>
+    <ClCompile Include="2. ObjPtrArr.cpp">
+      <Filter>소스 파일\Chapter 04\4</Filter>
+    </ClCompile>
+    <ClCompile Include="3. PointerThis.cpp">
+      <Filter>소스 파일\Chapter 04\4</Filter>
+    </ClCompile>
+    <ClCompile Include="4. UsefulThisPtr.cpp">
+      <Filter>소스 파일\Chapter 04\4</Filter>
+    </ClCompile>
+    <ClCompile Include="5. SelfRef.cpp">
+      <Filter>소스 파일\Chapter 04\4</Filter>
+    </ClCompile>
+    <ClCompile Include="1. BankingSystemVer02.cpp">
+      <Filter>소스 파일\Chapter 04\5, OOP Project02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -262,6 +334,12 @@
     </ClInclude>
     <ClInclude Include="2. Rectangle-2-1.h">
       <Filter>소스 파일\Chapter 04\1</Filter>
+    </ClInclude>
+    <ClInclude Include="4. Point-1-1.h">
+      <Filter>소스 파일\Chapter 04\3</Filter>
+    </ClInclude>
+    <ClInclude Include="4. Rectangle-2-1.h">
+      <Filter>소스 파일\Chapter 04\3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
