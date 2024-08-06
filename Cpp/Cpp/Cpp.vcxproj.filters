@@ -100,6 +100,18 @@
     <Filter Include="소스 파일\Chapter 05\2. Prac-1">
       <UniqueIdentifier>{0717147f-c583-451b-958d-7c76ef5c8364}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 06">
+      <UniqueIdentifier>{0fba06ec-2e80-4b50-9528-ba3823581ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 06\1">
+      <UniqueIdentifier>{b9c53fd5-df04-4e2e-b653-913467022823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 06\2">
+      <UniqueIdentifier>{19d216ba-d1ba-4829-910b-635fbe97f396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 06\3">
+      <UniqueIdentifier>{87f33799-2797-4c15-862a-f485f32e3db9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -356,6 +368,18 @@
     </ClCompile>
     <ClCompile Include="1. BankingSystemVer03.cpp">
       <Filter>소스 파일\Chapter 05\4. OOP Project03</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ConstObject.cpp">
+      <Filter>소스 파일\Chapter 06\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. ConstOverloading.cpp">
+      <Filter>소스 파일\Chapter 06\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. MyFriendClass.cpp">
+      <Filter>소스 파일\Chapter 06\2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. MyFriendFunction.cpp">
+      <Filter>소스 파일\Chapter 06\2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
