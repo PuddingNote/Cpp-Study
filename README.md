@@ -22,3 +22,7 @@
   - Chapter04 2~5 Complete
     - Page 199 ~ 201 / Self-Reference, 참조 관련 나중에 다시 보기
   - Chapter05 1 ~ing
+- Day6
+  - Chapter05 1~4 Complete
+  - Chapter06 1~2 Complete
+  - Chapter06 3 ~ing
