@@ -115,6 +115,21 @@
     <Filter Include="소스 파일\Chapter 06\4. OOP Project04">
       <UniqueIdentifier>{cd44638f-ac37-4095-a38b-8d76e80ebdcc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 07">
+      <UniqueIdentifier>{29f2365c-510a-432d-9034-7996c1139a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 07\1">
+      <UniqueIdentifier>{32fb5973-8af7-48da-a7ca-5dbe06073823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 07\2. Prac-1">
+      <UniqueIdentifier>{9cd7e489-2978-4241-8aff-dc800eebd883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 07\3">
+      <UniqueIdentifier>{872289e5-1102-43f3-b348-f142102801e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 07\4">
+      <UniqueIdentifier>{eb9a1262-8705-4c4f-b9a9-c6cc2ed191bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -404,6 +419,30 @@
     </ClCompile>
     <ClCompile Include="1. BankingSystemVer04.cpp">
       <Filter>소스 파일\Chapter 06\4. OOP Project04</Filter>
+    </ClCompile>
+    <ClCompile Include="1. EmployeeManager1.cpp">
+      <Filter>소스 파일\Chapter 07\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. UnivStudentInheri.cpp">
+      <Filter>소스 파일\Chapter 07\2. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. DerivCreOrder.cpp">
+      <Filter>소스 파일\Chapter 07\2. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="3. DerivDestOrder.cpp">
+      <Filter>소스 파일\Chapter 07\2. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="4. DestModel.cpp">
+      <Filter>소스 파일\Chapter 07\2. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="07-1. Prac.cpp">
+      <Filter>소스 파일\Chapter 07\2. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ProtectedHeri.cpp">
+      <Filter>소스 파일\Chapter 07\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ISAInheritance.cpp">
+      <Filter>소스 파일\Chapter 07\4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
