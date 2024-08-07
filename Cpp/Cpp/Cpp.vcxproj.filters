@@ -112,6 +112,9 @@
     <Filter Include="소스 파일\Chapter 06\3">
       <UniqueIdentifier>{87f33799-2797-4c15-862a-f485f32e3db9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 06\4. OOP Project04">
+      <UniqueIdentifier>{cd44638f-ac37-4095-a38b-8d76e80ebdcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -380,6 +383,27 @@
     </ClCompile>
     <ClCompile Include="2. MyFriendFunction.cpp">
       <Filter>소스 파일\Chapter 06\2</Filter>
+    </ClCompile>
+    <ClCompile Include="1. CComStatic.cpp">
+      <Filter>소스 파일\Chapter 06\3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. NeedGlobal.cpp">
+      <Filter>소스 파일\Chapter 06\3</Filter>
+    </ClCompile>
+    <ClCompile Include="3. StaticMember.cpp">
+      <Filter>소스 파일\Chapter 06\3</Filter>
+    </ClCompile>
+    <ClCompile Include="4. PublicStaticMember.cpp">
+      <Filter>소스 파일\Chapter 06\3</Filter>
+    </ClCompile>
+    <ClCompile Include="5. ConstStaticMember.cpp">
+      <Filter>소스 파일\Chapter 06\3</Filter>
+    </ClCompile>
+    <ClCompile Include="6. Mutable.cpp">
+      <Filter>소스 파일\Chapter 06\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. BankingSystemVer04.cpp">
+      <Filter>소스 파일\Chapter 06\4. OOP Project04</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
