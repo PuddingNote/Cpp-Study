@@ -26,3 +26,7 @@
   - Chapter05 1~4 Complete
   - Chapter06 1~2 Complete
   - Chapter06 3 ~ing
+- Day7
+  - Chapter06 3~4 Complete
+  - Chapter07 1~3 Complete
+  - Chapter07 4 ~ing
