@@ -133,6 +133,15 @@
     <Filter Include="소스 파일\Chapter 07\5. OOP Project05">
       <UniqueIdentifier>{f7118439-f568-471c-a25f-b1326ac8097e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 08">
+      <UniqueIdentifier>{aacd2d1c-a43c-4d2c-9c72-86ab5d35f690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 08\1">
+      <UniqueIdentifier>{174a8029-b89f-41ae-9a10-4f02764fe470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 08\2">
+      <UniqueIdentifier>{2edce170-8382-43de-b736-1b65ed9e9688}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -458,6 +467,15 @@
     </ClCompile>
     <ClCompile Include="1. BankingSystemVer05.cpp">
       <Filter>소스 파일\Chapter 07\5. OOP Project05</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ObjectPointer.cpp">
+      <Filter>소스 파일\Chapter 08\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. EmployeeManager2.cpp">
+      <Filter>소스 파일\Chapter 08\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. FunctionOverride.cpp">
+      <Filter>소스 파일\Chapter 08\2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
