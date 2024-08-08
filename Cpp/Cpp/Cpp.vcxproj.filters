@@ -127,8 +127,11 @@
     <Filter Include="소스 파일\Chapter 07\3">
       <UniqueIdentifier>{872289e5-1102-43f3-b348-f142102801e9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Chapter 07\4">
+    <Filter Include="소스 파일\Chapter 07\4. Prac-2">
       <UniqueIdentifier>{eb9a1262-8705-4c4f-b9a9-c6cc2ed191bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 07\5. OOP Project05">
+      <UniqueIdentifier>{f7118439-f568-471c-a25f-b1326ac8097e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -442,7 +445,19 @@
       <Filter>소스 파일\Chapter 07\3</Filter>
     </ClCompile>
     <ClCompile Include="1. ISAInheritance.cpp">
-      <Filter>소스 파일\Chapter 07\4</Filter>
+      <Filter>소스 파일\Chapter 07\4. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. HASInheritance.cpp">
+      <Filter>소스 파일\Chapter 07\4. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="3. HASComposite.cpp">
+      <Filter>소스 파일\Chapter 07\4. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="07-2. Prac.cpp">
+      <Filter>소스 파일\Chapter 07\4. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="1. BankingSystemVer05.cpp">
+      <Filter>소스 파일\Chapter 07\5. OOP Project05</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
