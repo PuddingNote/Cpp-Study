@@ -34,3 +34,6 @@
   - Chapter07 4~5 Complete
   - Chapter08 1 Complete
   - Chapter08 2 ~ing
+- Day9
+  - Chapter08 2~4 Complete
+  - Chapter09 1 ~ing
