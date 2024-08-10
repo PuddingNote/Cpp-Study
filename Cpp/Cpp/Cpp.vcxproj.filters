@@ -148,6 +148,15 @@
     <Filter Include="소스 파일\Chapter 08\4. OOP Project06">
       <UniqueIdentifier>{14a7f2de-d351-475d-8faf-72e43712c6e4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 09">
+      <UniqueIdentifier>{b6f16d69-96ec-4b3f-8c7e-8af48e720917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 09\1">
+      <UniqueIdentifier>{28186c3c-eafb-4cff-9b34-bb1de1b5ee42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 09\2">
+      <UniqueIdentifier>{de4a2bad-e2a7-4119-b086-c431b4fb7dad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -506,6 +515,21 @@
     </ClCompile>
     <ClCompile Include="1. BankingSystemVer06.cpp">
       <Filter>소스 파일\Chapter 08\4. OOP Project06</Filter>
+    </ClCompile>
+    <ClCompile Include="1. RealObjUnder1.cpp">
+      <Filter>소스 파일\Chapter 09\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. RealObjUnder2.cpp">
+      <Filter>소스 파일\Chapter 09\1</Filter>
+    </ClCompile>
+    <ClCompile Include="3. VirtualInternal.cpp">
+      <Filter>소스 파일\Chapter 09\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. MultiInheri1.cpp">
+      <Filter>소스 파일\Chapter 09\2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. MultiInheri2.cpp">
+      <Filter>소스 파일\Chapter 09\2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
