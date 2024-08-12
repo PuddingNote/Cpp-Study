@@ -42,3 +42,8 @@
   - Chapter09 2 ~ing
 - Day11
   - Break
+- Day12
+  - Chapter09 2~3 Complete
+    - Page 394 - Chapter09-3 / AccountHandler.cpp 의 소멸자 오류 분석 필요
+  - Chapter10 1~4 Complete
+  - Chapter11 1 ~ing
