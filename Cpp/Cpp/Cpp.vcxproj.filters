@@ -157,6 +157,9 @@
     <Filter Include="소스 파일\Chapter 09\2">
       <UniqueIdentifier>{de4a2bad-e2a7-4119-b086-c431b4fb7dad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 09\3. OOP Project07">
+      <UniqueIdentifier>{d8abe4d9-a65e-4c0a-8b92-914f641e69df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -531,6 +534,18 @@
     <ClCompile Include="2. MultiInheri2.cpp">
       <Filter>소스 파일\Chapter 09\2</Filter>
     </ClCompile>
+    <ClCompile Include="3. MultiInheri3.cpp">
+      <Filter>소스 파일\Chapter 09\2</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountHandler.cpp">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemMain.cpp">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -553,6 +568,21 @@
     </ClInclude>
     <ClInclude Include="4. Rectangle-2-1.h">
       <Filter>소스 파일\Chapter 04\3. Prac-3</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAccount.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCreditAccount.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClInclude>
+    <ClInclude Include="BankingCommonDecl.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
