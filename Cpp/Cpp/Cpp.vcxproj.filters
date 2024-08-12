@@ -160,6 +160,21 @@
     <Filter Include="소스 파일\Chapter 09\3. OOP Project07">
       <UniqueIdentifier>{d8abe4d9-a65e-4c0a-8b92-914f641e69df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 10">
+      <UniqueIdentifier>{5dfbe2fe-7ad0-4a02-a09e-9330097d8afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 10\1. Prac-1">
+      <UniqueIdentifier>{c7c412a8-498a-4b89-afdf-8622d2d8d82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 10\2. Prac-2">
+      <UniqueIdentifier>{799e3499-060b-467f-84a2-7b22c91efd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 10\3">
+      <UniqueIdentifier>{9534212b-91bb-4431-8d7a-411b4e0c6211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 10\4. Prac-3">
+      <UniqueIdentifier>{03d1be35-84e6-4559-bb19-96ecfe5205e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -545,6 +560,45 @@
     </ClCompile>
     <ClCompile Include="BankingSystemMain.cpp">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
+    <ClCompile Include="1. FirstOperationOverloading.cpp">
+      <Filter>소스 파일\Chapter 10\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. OverloadingOperation.cpp">
+      <Filter>소스 파일\Chapter 10\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="3. GFunctionOverloading.cpp">
+      <Filter>소스 파일\Chapter 10\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="10-1. Prac.cpp">
+      <Filter>소스 파일\Chapter 10\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. OneOpndOverloading.cpp">
+      <Filter>소스 파일\Chapter 10\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="10-2. Prac.cpp">
+      <Filter>소스 파일\Chapter 10\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. PostOpndOverloading.cpp">
+      <Filter>소스 파일\Chapter 10\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="1. PointMultipleOperation.cpp">
+      <Filter>소스 파일\Chapter 10\3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. CommuMultipleOperation.cpp">
+      <Filter>소스 파일\Chapter 10\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ConsoleOutput.cpp">
+      <Filter>소스 파일\Chapter 10\4. Prac-3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. IterateConsoleOutput.cpp">
+      <Filter>소스 파일\Chapter 10\4. Prac-3</Filter>
+    </ClCompile>
+    <ClCompile Include="3. PointConsoleOutput.cpp">
+      <Filter>소스 파일\Chapter 10\4. Prac-3</Filter>
+    </ClCompile>
+    <ClCompile Include="10-3. Prac.cpp">
+      <Filter>소스 파일\Chapter 10\4. Prac-3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
