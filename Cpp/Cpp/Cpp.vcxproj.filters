@@ -175,6 +175,24 @@
     <Filter Include="소스 파일\Chapter 10\4. Prac-3">
       <UniqueIdentifier>{03d1be35-84e6-4559-bb19-96ecfe5205e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 11">
+      <UniqueIdentifier>{6d9f2afc-76f7-47d5-91f5-a4a09c3b70a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 11\1. Prac-1">
+      <UniqueIdentifier>{7499508f-20fa-4c45-b040-98f2fb81d152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 11\2. Prac-2">
+      <UniqueIdentifier>{a42552a6-dbec-4e2d-913e-a883da7b7e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 11\3">
+      <UniqueIdentifier>{c0291024-e696-4dda-b55a-28bcc387f1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 11\4. OOP Project08">
+      <UniqueIdentifier>{7c18abdc-7f97-48bd-90e7-edaf08771db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 11\4. OOP Project08\Chapter 09-&gt;OOP Project07">
+      <UniqueIdentifier>{5f5acb1b-9b81-4571-9a60-65abc45534d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -600,6 +618,42 @@
     <ClCompile Include="10-3. Prac.cpp">
       <Filter>소스 파일\Chapter 10\4. Prac-3</Filter>
     </ClCompile>
+    <ClCompile Include="FirstOperationOverloading.cpp">
+      <Filter>소스 파일\Chapter 11\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. AssignShallowCopyError.cpp">
+      <Filter>소스 파일\Chapter 11\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="3. InheritAssignOperation.cpp">
+      <Filter>소스 파일\Chapter 11\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="11-1. Prac.cpp">
+      <Filter>소스 파일\Chapter 11\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="4. ImproveInit.cpp">
+      <Filter>소스 파일\Chapter 11\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ArrayClass.cpp">
+      <Filter>소스 파일\Chapter 11\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. StableConstArrayProb.cpp">
+      <Filter>소스 파일\Chapter 11\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="3. StableConstArraySolu.cpp">
+      <Filter>소스 파일\Chapter 11\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="4. StablePointObjArray.cpp">
+      <Filter>소스 파일\Chapter 11\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="5. StablePointPtrArray.cpp">
+      <Filter>소스 파일\Chapter 11\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="11-2. Prac.cpp">
+      <Filter>소스 파일\Chapter 11\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountArray.cpp">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -636,6 +690,9 @@
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
     <ClInclude Include="BankingCommonDecl.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountArray.h">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
   </ItemGroup>

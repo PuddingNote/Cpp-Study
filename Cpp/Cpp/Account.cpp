@@ -1,3 +1,7 @@
+/*
+업데이트 정보 : [2024-08-13] ver0.8
+*/
+
 #include "BankingCommonDecl.h"
 #include "Account.h"
 
@@ -11,6 +15,17 @@ Account::Account(const Account& copy) : id(copy.id), balance(copy.balance)
 {
 	this->name = new char[strlen(copy.name) + 1];
 	strcpy(this->name, copy.name);
+}
+
+Account& Account::operator=(const Account& ref)	// ver0.8 add
+{
+	id = ref.id;
+	balance = ref.balance;
+
+	delete[] name;
+	name = new char[strlen(ref.name) + 1];
+	strcpy(name, ref.name);
+	return *this;
 }
 
 int Account::GetID() const

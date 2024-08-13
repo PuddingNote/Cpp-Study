@@ -1,4 +1,8 @@
 #ifndef __HIGHCREDITACCOUNT_H__
+/*
+업데이트 정보 : [2024-08-12] ver0.7
+*/
+
 #define __HIGHCREDITACCOUNT_H__
 
 #include "NormalAccount.h"

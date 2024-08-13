@@ -1,3 +1,7 @@
+/*
+업데이트 정보 : [2024-08-12] ver0.7
+*/
+
 #ifndef __BANKING_COMMON_H__
 #define __BANKING_COMMON_H__
 

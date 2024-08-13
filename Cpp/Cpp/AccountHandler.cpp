@@ -1,3 +1,7 @@
+/*
+업데이트 정보 : [2024-08-12] ver0.7
+*/
+
 #include "Account.h"
 #include "NormalAccount.h"
 #include "HighCreditAccount.h"
@@ -161,6 +165,8 @@ AccountHandler::~AccountHandler()
 {
 	for (int i = 0; i < accountNum; i++)
 	{
-		//delete account[i];	// 여기서 왜 오류가 뜨는지 모르겠음
+		// 여기서 왜 오류가 뜨는지 모르겠음
+		// 여러개의 포인터가 하나의 주소를 가리켜서 여러번 삭제될때 동일한 오류가 떴었음
+		//delete account[i];
 	}
 }
