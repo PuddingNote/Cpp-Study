@@ -47,3 +47,14 @@
     - Page 394 - Chapter09-3 / AccountHandler.cpp 의 소멸자 오류 분석 필요
   - Chapter10 1~4 Complete
   - Chapter11 1 ~ing
+- Day13
+  - Chapter11 1~4 Complete
+    - Page 468 - 11-2 Prac 2번문제 완독 후 풀어보기
+    - Page 469~493 - 11-3 책 완독 후 공부
+  - Fix Chapter09 - 3.OOP Project07
+    - 앞으로 추가되는 OOP Project는 위 폴더에서 수정작업 하기
+      - 수정할때마다 version별로 표시
+    - Add AccountArray.cpp
+    - Add AccountArray.h
+  - Chapter12 1 ~ing
+
