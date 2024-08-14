@@ -1,5 +1,5 @@
 /*
-업데이트 정보 : [2024-08-12] ver0.7
+업데이트 정보 : [2024-08-14] ver0.9
 */
 
 #include "Account.h"
@@ -7,13 +7,14 @@
 #include "HighCreditAccount.h"
 #include "AccountHandler.h"
 #include "BankingCommonDecl.h"
+#include "String.h"
 
 AccountHandler::AccountHandler() : accountNum(0)
 {
 
 }
 
-void AccountHandler::ShowMenu() const		// 메뉴 출력
+void AccountHandler::ShowMenu() const
 {
 	cout << "-----Menu------" << endl;
 	cout << "1. 계좌 개설" << endl;
@@ -45,7 +46,8 @@ void AccountHandler::MakeAccount()
 void AccountHandler::MakeNormalAccount()
 {
 	int id;
-	char name[NAME_LENGTH];
+	//char name[NAME_LENGTH];
+	String name;
 	int money;
 	int interRate;
 
@@ -68,7 +70,8 @@ void AccountHandler::MakeNormalAccount()
 void AccountHandler::MakeCreditAccount()
 {
 	int id;
-	char name[NAME_LENGTH];
+	//char name[NAME_LENGTH];
+	String name;
 	int money;
 	int interRate;
 	int creditLevel;
@@ -102,7 +105,7 @@ void AccountHandler::MakeCreditAccount()
 	cout << "신용신뢰계좌 개설완료" << endl << endl;
 }
 
-void AccountHandler::DepositMoney()			// 입금
+void AccountHandler::DepositMoney()
 {
 	int id;
 	int money;
@@ -127,7 +130,7 @@ void AccountHandler::DepositMoney()			// 입금
 	cout << "일치하는 ID가 존재 하지 않음" << endl << endl;
 }
 
-void AccountHandler::WithdrawMoney()		// 출금
+void AccountHandler::WithdrawMoney()
 {
 	int id;
 	int money;
@@ -151,7 +154,7 @@ void AccountHandler::WithdrawMoney()		// 출금
 	cout << "일치하는 ID가 존재 하지 않음" << endl << endl;
 }
 
-void AccountHandler::ShowAccInfo() const	// 잔액 조회
+void AccountHandler::ShowAccInfo() const
 {
 	for (int i = 0; i < accountNum; i++)
 	{

@@ -193,6 +193,21 @@
     <Filter Include="소스 파일\Chapter 11\4. OOP Project08\Chapter 09-&gt;OOP Project07">
       <UniqueIdentifier>{5f5acb1b-9b81-4571-9a60-65abc45534d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 12">
+      <UniqueIdentifier>{54bb8cd8-e12a-4f89-8957-048a0fd6cd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 12\1">
+      <UniqueIdentifier>{177ae0ef-10bd-4a97-9a17-275acf109cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 12\2">
+      <UniqueIdentifier>{ba1f25ed-8fc5-4c4d-8ba7-bc2af6983fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 12\3. OOP Project09">
+      <UniqueIdentifier>{43e69e0a-3438-4d6c-b563-b1941bb96c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 12\3. OOP Project09\Chapter 09 -&gt;OOP Project07">
+      <UniqueIdentifier>{aa6aee9e-f3a6-4c9b-86e9-b815aa07393e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -258,7 +273,7 @@
     <ClCompile Include="01-4. Prac-2.cpp">
       <Filter>소스 파일\Chapter 01\5. Prac-4</Filter>
     </ClCompile>
-    <ClCompile Include="BankingSystemVer01.cpp">
+    <ClCompile Include="1. BankingSystemVer01.cpp">
       <Filter>소스 파일\Chapter 01\6. OOP Project01</Filter>
     </ClCompile>
     <ClCompile Include="1. TrueAndFalse.cpp">
@@ -654,6 +669,15 @@
     <ClCompile Include="AccountArray.cpp">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClCompile>
+    <ClCompile Include="1. STDString.cpp">
+      <Filter>소스 파일\Chapter 12\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. StringClass.cpp">
+      <Filter>소스 파일\Chapter 12\2</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -693,6 +717,9 @@
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
     <ClInclude Include="AccountArray.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
   </ItemGroup>
