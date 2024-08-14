@@ -1,18 +1,17 @@
 /*
-업데이트 정보 : [2024-08-13] ver0.8
+업데이트 정보 : [2024-08-14] ver0.10
 */
 
 #ifndef __ACCOUNTHANDLER_H__
 #define __ACCOUNTHANDLER_H__
 
 #include "Account.h"
-#include "AccountArray.h"
+#include "BoundCheckArray.h"
 
 class AccountHandler
 {
 private:
-	//Account* account[100];
-	BoundCheckAccountPtrArray account;	// ver0.8
+	BoundCheckArray<Account*> account;
 	int accountNum;
 
 public:

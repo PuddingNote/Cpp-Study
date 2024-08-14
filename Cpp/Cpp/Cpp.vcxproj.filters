@@ -208,6 +208,27 @@
     <Filter Include="소스 파일\Chapter 12\3. OOP Project09\Chapter 09 -&gt;OOP Project07">
       <UniqueIdentifier>{aa6aee9e-f3a6-4c9b-86e9-b815aa07393e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 13">
+      <UniqueIdentifier>{8b95ac22-ccdd-4380-82f0-b6fa61d735d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 13\1. Prac-1">
+      <UniqueIdentifier>{687bac17-5b4a-4bd3-92d9-e33e3e030906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 13\2. Prac-2">
+      <UniqueIdentifier>{41333849-0cc4-4d56-9d1a-c0d94f487991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 13\3. OOP Project10">
+      <UniqueIdentifier>{47ed85fd-ff39-4601-9eda-075bf9848d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 13\3. OOP Project10\Chapter 09 -&gt;OOP Project07">
+      <UniqueIdentifier>{8178b546-afa3-4ad8-a351-4197449842fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 14">
+      <UniqueIdentifier>{b813346a-1caf-41a7-a147-e2ce32637379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 14\1">
+      <UniqueIdentifier>{ab0213e7-28c1-47cf-b6ab-091c9dab472f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -666,9 +687,6 @@
     <ClCompile Include="11-2. Prac.cpp">
       <Filter>소스 파일\Chapter 11\2. Prac-2</Filter>
     </ClCompile>
-    <ClCompile Include="AccountArray.cpp">
-      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
-    </ClCompile>
     <ClCompile Include="1. STDString.cpp">
       <Filter>소스 파일\Chapter 12\1</Filter>
     </ClCompile>
@@ -677,6 +695,45 @@
     </ClCompile>
     <ClCompile Include="String.cpp">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
+    <ClCompile Include="1. AddFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter 13\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. TwoTypeAddFunction.cpp">
+      <Filter>소스 파일\Chapter 13\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="3. PrimitiveFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter 13\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="13-1. Prac.cpp">
+      <Filter>소스 파일\Chapter 13\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="4. NeedSpecialFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter 13\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="5. SpecialFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter 13\1. Prac-1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. PointClassTemplate.cpp">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. PointClassTemplateFuncDef.cpp">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="3-2. PointTemplate.cpp">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="3-3. PointMain.cpp">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="4-3. Point.cpp">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="4-4. BoundArrayMain.cpp">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClCompile>
+    <ClCompile Include="13-2. Prac.cpp">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -716,10 +773,19 @@
     <ClInclude Include="BankingCommonDecl.h">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
-    <ClInclude Include="AccountArray.h">
+    <ClInclude Include="String.h">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
-    <ClInclude Include="String.h">
+    <ClInclude Include="3-1. PointTemplate.h">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClInclude>
+    <ClInclude Include="4-1. ArrayTemplate.h">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClInclude>
+    <ClInclude Include="4-2. Point.h">
+      <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundCheckArray.h">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClInclude>
   </ItemGroup>
