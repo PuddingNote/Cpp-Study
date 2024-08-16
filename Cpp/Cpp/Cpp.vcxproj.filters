@@ -238,6 +238,30 @@
     <Filter Include="소스 파일\Chapter 14\4">
       <UniqueIdentifier>{6987a701-eb22-4cc6-9435-194c00f6814e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 15">
+      <UniqueIdentifier>{d259289c-976d-47cf-a182-e40e0251f6ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 15\1">
+      <UniqueIdentifier>{8ef5deed-a447-4fb2-b283-9debd0dbdba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 15\2">
+      <UniqueIdentifier>{19af4cfb-fbe2-4b37-a897-b0827179968c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 15\3">
+      <UniqueIdentifier>{78adc01c-780e-4ea2-9ef2-2e606085e365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 15\4">
+      <UniqueIdentifier>{77292188-24a7-4085-a676-94d9e1bbb6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 15\5">
+      <UniqueIdentifier>{ef4b7de9-9f23-4570-b88f-1bfd52384ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 15\6. OOP Project11">
+      <UniqueIdentifier>{9e189256-0d55-42c9-aa5c-e5dddfb736ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 15\6. OOP Project11\Chapter 09 -&gt;OOP Project07">
+      <UniqueIdentifier>{3a3bcc53-93c5-4935-8977-370a292ee1cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -770,6 +794,45 @@
     </ClCompile>
     <ClCompile Include="2. ClassTemplateStaticMem.cpp">
       <Filter>소스 파일\Chapter 14\4</Filter>
+    </ClCompile>
+    <ClCompile Include="1. UnhandlingException.cpp">
+      <Filter>소스 파일\Chapter 15\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. HandlingExceptionUself.cpp">
+      <Filter>소스 파일\Chapter 15\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. HandlingExceptionTryCatch.cpp">
+      <Filter>소스 파일\Chapter 15\2</Filter>
+    </ClCompile>
+    <ClCompile Include="3. StackUnwinding.cpp">
+      <Filter>소스 파일\Chapter 15\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. PassException.cpp">
+      <Filter>소스 파일\Chapter 15\3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. DiffHandlingPosition.cpp">
+      <Filter>소스 파일\Chapter 15\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ATMSim.cpp">
+      <Filter>소스 파일\Chapter 15\4</Filter>
+    </ClCompile>
+    <ClCompile Include="2. ATMSim2.cpp">
+      <Filter>소스 파일\Chapter 15\4</Filter>
+    </ClCompile>
+    <ClCompile Include="3. CatchFlow.cpp">
+      <Filter>소스 파일\Chapter 15\4</Filter>
+    </ClCompile>
+    <ClCompile Include="4. CatchList.cpp">
+      <Filter>소스 파일\Chapter 15\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. BadAlloc.cpp">
+      <Filter>소스 파일\Chapter 15\5</Filter>
+    </ClCompile>
+    <ClCompile Include="2. ReThrow.cpp">
+      <Filter>소스 파일\Chapter 15\5</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountException.h">
+      <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

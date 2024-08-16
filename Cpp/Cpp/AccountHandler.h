@@ -16,7 +16,6 @@ private:
 
 public:
 	AccountHandler();
-
 	void ShowMenu() const;
 	void MakeAccount();
 	void DepositMoney();

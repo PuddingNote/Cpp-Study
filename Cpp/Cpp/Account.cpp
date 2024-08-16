@@ -1,32 +1,10 @@
 /*
-업데이트 정보 : [2024-08-14] ver0.9
+업데이트 정보 : [2024-08-16] ver0.11
 */
 
 #include "BankingCommonDecl.h"
 #include "Account.h"
-
-//Account::Account(int id, const char* name, int balance) : id(id), balance(balance)
-//{
-//	this->name = new char[strlen(name) + 1];
-//	strcpy(this->name, name);
-//}
-//
-//Account::Account(const Account& copy) : id(copy.id), balance(copy.balance)
-//{
-//	this->name = new char[strlen(copy.name) + 1];
-//	strcpy(this->name, copy.name);
-//}
-//
-//Account& Account::operator=(const Account& ref)	// ver0.8 add
-//{
-//	id = ref.id;
-//	balance = ref.balance;
-//
-//	delete[] name;
-//	name = new char[strlen(ref.name) + 1];
-//	strcpy(name, ref.name);
-//	return *this;
-//}
+#include "AccountException.h"
 
 Account::Account(int id, String name, int balance) : id(id), balance(balance)
 {
@@ -40,16 +18,26 @@ int Account::GetID() const
 
 void Account::Deposit(int money)
 {
+	if (money < 0)
+	{
+		throw MinusException(money);
+	}
+
 	balance += money;
 }
 
 int Account::Withdraw(int money)
 {
+	if (money < 0)
+	{
+		throw MinusException(money);
+	}
+
 	if (balance < money)
 	{
-		cout << "잔액 부족" << endl << endl;
-		return 0;
+		throw InsuffException(balance, money);
 	}
+
 	balance -= money;
 	cout << "출금 완료" << endl << endl;
 	return money;
@@ -61,8 +49,3 @@ void Account::ShowAccInfo() const
 	cout << "이 름: " << name << endl;
 	cout << "잔 액: " << balance << endl;
 }
-
-//Account::~Account()
-//{
-//	delete[] name;
-//}

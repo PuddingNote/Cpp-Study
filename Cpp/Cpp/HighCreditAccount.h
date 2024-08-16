@@ -1,5 +1,5 @@
 /*
-업데이트 정보 : [2024-08-14] ver0.9
+업데이트 정보 : [2024-08-16] ver0.11
 */
 
 #ifndef __HIGHCREDITACCOUNT_H__
@@ -14,10 +14,13 @@ private:
 	int specialRate;
 
 public:
-	//HighCreditAccount(int id, const char* name, int balance, int rate, int special) : NormalAccount(id, name, balance, rate), specialRate(special) {}
 	HighCreditAccount(int id, String name, int balance, int rate, int special) : NormalAccount(id, name, balance, rate), specialRate(special) {}
 	virtual void Deposit(int money)
 	{
+		if (money < 0)
+		{
+			throw MinusException(money);
+		}
 		NormalAccount::Deposit(money);
 		Account::Deposit(money * (specialRate / 100.0));
 	}

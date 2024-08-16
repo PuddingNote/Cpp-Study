@@ -11,22 +11,15 @@ class Account
 {
 private:
 	int id;
-	//char* name;
 	String name;
 	int balance;
 
 public:
-	//Account(int id, const char* name, int balance);
-	//Account(const Account& copy);
-	//Account& operator=(const Account& ref);
-
 	Account(int id, String name, int balance);
-
 	int GetID() const;
 	void Deposit(int money);
 	int Withdraw(int money);
 	void ShowAccInfo() const;
-	//~Account();
 };
 
 #endif

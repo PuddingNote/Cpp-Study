@@ -1,5 +1,5 @@
 /*
-업데이트 정보 : [2024-08-14] ver0.9
+업데이트 정보 : [2024-08-16] ver0.11
 */
 
 #include "Account.h"
@@ -46,7 +46,6 @@ void AccountHandler::MakeAccount()
 void AccountHandler::MakeNormalAccount()
 {
 	int id;
-	//char name[NAME_LENGTH];
 	String name;
 	int money;
 	int interRate;
@@ -70,7 +69,6 @@ void AccountHandler::MakeNormalAccount()
 void AccountHandler::MakeCreditAccount()
 {
 	int id;
-	//char name[NAME_LENGTH];
 	String name;
 	int money;
 	int interRate;
@@ -117,17 +115,28 @@ void AccountHandler::DepositMoney()
 	cin >> money;
 	cout << endl;
 
-	for (int i = 0; i < accountNum; i++)
+	while (true)
 	{
-		if (account[i]->GetID() == id)
+		try
 		{
-			account[i]->Deposit(money);
-			cout << "입금 완료" << endl << endl;;
+			for (int i = 0; i < accountNum; i++)
+			{
+				if (account[i]->GetID() == id)
+				{
+					account[i]->Deposit(money);
+					cout << "입금 완료" << endl << endl;
+					return;
+				}
+			}
+			cout << "일치하는 ID가 존재 하지 않음" << endl << endl;
 			return;
 		}
+		catch (MinusException& expt)
+		{
+			expt.ShowExceptionInfo();
+			cout << "입금액만 재입력하세요." << endl;
+		}
 	}
-
-	cout << "일치하는 ID가 존재 하지 않음" << endl << endl;
 }
 
 void AccountHandler::WithdrawMoney()
@@ -142,16 +151,33 @@ void AccountHandler::WithdrawMoney()
 	cin >> money;
 	cout << endl;
 
-	for (int i = 0; i < accountNum; i++)
+	while (true)
 	{
-		if (account[i]->GetID() == id)
+		try
 		{
-			account[i]->Withdraw(money);
+			for (int i = 0; i < accountNum; i++)
+			{
+				if (account[i]->GetID() == id)
+				{
+					account[i]->Withdraw(money);
+					cout << "출금 완료" << endl << endl;;
+					return;
+				}
+			}
+			cout << "일치하는 ID가 존재 하지 않음" << endl << endl;
 			return;
 		}
+		catch (MinusException& expt)
+		{
+			expt.ShowExceptionInfo();
+			cout << "입금액만 재입력하세요." << endl;
+		}
+		catch (InsuffException& expt)
+		{
+			expt.ShowExceptionInfo();
+			cout << "출금액만 재입력하세요." << endl;
+		}
 	}
-
-	cout << "일치하는 ID가 존재 하지 않음" << endl << endl;
 }
 
 void AccountHandler::ShowAccInfo() const
@@ -166,10 +192,10 @@ void AccountHandler::ShowAccInfo() const
 
 AccountHandler::~AccountHandler()
 {
+	// 오류 분석 필요
+	// 여러개의 포인터가 하나의 주소를 가리켜서 여러번 삭제될때 동일한 오류가 뜬 적이 있음
 	for (int i = 0; i < accountNum; i++)
 	{
-		// 여기서 왜 오류가 뜨는지 모르겠음
-		// 여러개의 포인터가 하나의 주소를 가리켜서 여러번 삭제될때 동일한 오류가 떴었음
 		//delete account[i];
 	}
 }
