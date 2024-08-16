@@ -88,3 +88,12 @@
 
 - Day15
   - Break
+
+- Day16
+  - Chapter14 1~4 Complete
+  - Chapter15 1~6 Complete
+  - Fix OOP Project
+    - Update ver0.11
+    - Add AccountException.h
+    - Fix NormalAccount.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
+
