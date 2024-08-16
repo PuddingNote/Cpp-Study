@@ -229,6 +229,15 @@
     <Filter Include="소스 파일\Chapter 14\1">
       <UniqueIdentifier>{ab0213e7-28c1-47cf-b6ab-091c9dab472f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 14\2">
+      <UniqueIdentifier>{07020aee-6d4e-465d-b677-e3d157c18af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 14\3">
+      <UniqueIdentifier>{bd608b68-20ee-45e7-8fa5-ffb0fb101a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 14\4">
+      <UniqueIdentifier>{6987a701-eb22-4cc6-9435-194c00f6814e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -735,6 +744,33 @@
     <ClCompile Include="13-2. Prac.cpp">
       <Filter>소스 파일\Chapter 13\2. Prac-2</Filter>
     </ClCompile>
+    <ClCompile Include="1-2. ArrayTemplate.h">
+      <Filter>소스 파일\Chapter 14\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3. BoundArrayMain.cpp">
+      <Filter>소스 파일\Chapter 14\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. PointTemplateFriendFunction.cpp">
+      <Filter>소스 파일\Chapter 14\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1. ClassTemplateSpecialization.cpp">
+      <Filter>소스 파일\Chapter 14\2</Filter>
+    </ClCompile>
+    <ClCompile Include="2. ClassTemplatePartialSpecialization.cpp">
+      <Filter>소스 파일\Chapter 14\2</Filter>
+    </ClCompile>
+    <ClCompile Include="1. NonTypeTemplateParam.cpp">
+      <Filter>소스 파일\Chapter 14\3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. TemplateParamDefaultValue.cpp">
+      <Filter>소스 파일\Chapter 14\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1. FunctionTemplateStaticVar.cpp">
+      <Filter>소스 파일\Chapter 14\4</Filter>
+    </ClCompile>
+    <ClCompile Include="2. ClassTemplateStaticMem.cpp">
+      <Filter>소스 파일\Chapter 14\4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -787,6 +823,9 @@
     </ClInclude>
     <ClInclude Include="BoundCheckArray.h">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClInclude>
+    <ClInclude Include="1-1. PointTemplate.h">
+      <Filter>소스 파일\Chapter 14\1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
