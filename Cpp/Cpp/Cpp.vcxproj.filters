@@ -262,6 +262,12 @@
     <Filter Include="소스 파일\Chapter 15\6. OOP Project11\Chapter 09 -&gt;OOP Project07">
       <UniqueIdentifier>{3a3bcc53-93c5-4935-8977-370a292ee1cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 16">
+      <UniqueIdentifier>{6dcdffdb-e794-4690-9af5-3183eafedc79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 16\1">
+      <UniqueIdentifier>{6ccb72f1-5761-41f9-b590-1cacf4f70888}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -833,6 +839,9 @@
     </ClCompile>
     <ClCompile Include="AccountException.h">
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
+    </ClCompile>
+    <ClCompile Include="1. PowerfullCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
