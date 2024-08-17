@@ -268,6 +268,9 @@
     <Filter Include="소스 파일\Chapter 16\1">
       <UniqueIdentifier>{6ccb72f1-5761-41f9-b590-1cacf4f70888}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 16\2">
+      <UniqueIdentifier>{68a2d08e-73c1-4098-8b34-c542bdf9459b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -841,6 +844,27 @@
       <Filter>소스 파일\Chapter 09\3. OOP Project07</Filter>
     </ClCompile>
     <ClCompile Include="1. PowerfullCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2. DynamicCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
+    </ClCompile>
+    <ClCompile Include="3. StaticCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
+    </ClCompile>
+    <ClCompile Include="4. ConstCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
+    </ClCompile>
+    <ClCompile Include="5. ReinterpretCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
+    </ClCompile>
+    <ClCompile Include="6. PolymorphicDynamicCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
+    </ClCompile>
+    <ClCompile Include="7. PolymorphicStableCasting.cpp">
+      <Filter>소스 파일\Chapter 16\1</Filter>
+    </ClCompile>
+    <ClCompile Include="8. DynamicBadCastRef.cpp">
       <Filter>소스 파일\Chapter 16\1</Filter>
     </ClCompile>
   </ItemGroup>

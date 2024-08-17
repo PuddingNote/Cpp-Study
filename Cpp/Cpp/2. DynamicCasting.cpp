@@ -34,17 +34,19 @@ public:
 	}
 };
 
+// dynamic_cast<T>(expr);
+// 상속관계의 클래스 사이에서 유도클래스 포인터 및 참조형 데이터를 기초클래스의 포인터 및 참조형 데이터로 형 변환 하는 경우
+// 유도 -> 기초
 int main(void)
 {
 	Car* pcar1 = new Truck(80, 200);
-	Truck* ptruck1 = (Truck*)pcar1;		// 문제 없어 보이는 형변환
-	ptruck1->ShowTruckState();
-	cout << endl;
+	Truck* ptruck1 = dynamic_cast<Truck*>(pcar1);	// 컴파일 에러
 
 	Car* pcar2 = new Car(120);
-	Truck* ptruck2 = (Truck*)pcar2;		// 문제가 바로 보이는 형변환
-	ptruck2->ShowTruckState();
-	cout << endl;
+	Truck* ptruck2 = dynamic_cast<Truck*>(pcar2);	// 컴파일 에러
+
+	Truck* pTruck3 = new Truck(70, 150);
+	Car* pcar3 = dynamic_cast<Car*>(pTruck3);		// 컴파일 OK
 
 	return 0;
 }
