@@ -97,3 +97,7 @@
     - Add AccountException.h
     - Fix NormalAccount.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
   - Chapter16 1 ~ing
+
+- Day17
+  - Chapter16 1~2 Complete
+  - Book End
