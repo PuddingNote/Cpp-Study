@@ -1,9 +1,10 @@
 # Cpp-Study
 
-### 윤성우 열혈 C++ 프로그래밍 개정판
-
-#### 2024-08-01 Start ~ 
-
+### ■ 윤성우 열혈 C++ 프로그래밍 개정판
+<details> 
+  <summary>일정</summary>
+2024-08-01 Start ~ 2024-08-17 Read through Once
+  
 - Day1
   - Chapter01 1~6 Complete
   - Chapter02 1~3 Complete
@@ -101,3 +102,28 @@
 - Day17
   - Chapter16 1~2 Complete
   - Book End
+</details>
+</br>
+
+### ■ 자료구조
+<details>
+  <summary>일정</summary>
+2024-??-?? Start ~ 
+
+
+
+
+</details>
+</br>
+
+### ■ 뇌를 자극하는 C++ STL
+<details>
+  <summary>일정</summary>
+2024-??-?? Start ~ 
+
+
+  
+
+</details>
+</br>
+
