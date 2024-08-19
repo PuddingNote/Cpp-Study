@@ -11,7 +11,7 @@
 
 - Day2
   - Chapter02 4~6 Complete
-      - Page 95~96 - Prac-3 / 책 완독 후 한번 더 풀어보기
+      - Page 95~96 - Prac-3 / 책 완독 후 한번 더 풀어보기 (O)
   - Chapter03 1 ~ing
 
 - Day3
@@ -25,7 +25,7 @@
 
 - Day5
   - Chapter04 2~5 Complete
-    - Page 199~201 - Self-Reference의 반환 / 책 완독 후 한번 더 공부하기
+    - Page 199~201 - Self-Reference의 반환 / 책 완독 후 한번 더 공부하기 (O)
   - Chapter05 1 ~ing
 
 - Day6
@@ -52,18 +52,18 @@
   - Chapter09 2 ~ing
 
 - Day11
-  - Break
+  - ~
 
 - Day12
   - Chapter09 2~3 Complete
-    - Page 394 - OOP Project07 / AccountHandler.cpp 의 소멸자 오류 분석 필요
+    - Page 394 - OOP Project07 / AccountHandler.cpp 의 소멸자 오류 분석 필요 (X)
   - Chapter10 1~4 Complete
   - Chapter11 1 ~ing
 
 - Day13
   - Chapter11 1~4 Complete
-    - Page 468 - Prac-2-2 / 책 완독 후 풀어보기
-    - Page 469~493 - 11-3 / 책 완독 후 공부하기
+    - Page 468 - Prac-2-2 / 책 완독 후 풀어보기 (O)
+    - Page 469~493 - 11-3 / 책 완독 후 공부하기 (X)
   - Fix Chapter09 - 3.OOP Project07
     - 앞으로 추가되는 OOP Project는 위 폴더에서 수정작업 하기
       - 수정할때마다 version별로 표시
@@ -79,7 +79,7 @@
     - Add String.h, String.cpp
     - Fix Account.h, NormalAccont.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
   - Chapter13 1~3 Complete
-    - Page 552~553 - Prac-2 / Day13의 11-3 완독 후 풀어보기
+    - Page 552~553 - Prac-2 / Day13의 11-3 완독 후 풀어보기 (X)
   - Fix OOP Project
     - Update ver0.10
     - Add BoundCheckArray.h
@@ -88,7 +88,7 @@
   - Chapter14 1 ~ing
 
 - Day15
-  - Break
+  - ~
 
 - Day16
   - Chapter14 1~4 Complete
@@ -102,6 +102,14 @@
 - Day17
   - Chapter16 1~2 Complete
   - Book End
+ 
+- Day18
+  - ~
+
+- Day19
+  - Reread Day2, Day5 Complete
+  - Reread Day13 ~ing
+
 </details>
 </br>
 
