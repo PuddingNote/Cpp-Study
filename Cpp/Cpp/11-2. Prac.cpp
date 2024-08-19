@@ -94,44 +94,111 @@
 #include <cstdlib>
 using namespace std;
 
-class BoundCheck2DIntArray
+class BoundCheckIntArray
 {
 private:
-	int height;
-	int width;
 	int* arr;
+	int arrlen;
+	BoundCheckIntArray(const BoundCheckIntArray& arr) {}
+	BoundCheckIntArray& operator=(const BoundCheckIntArray& arr) {}
 
 public:
-	BoundCheck2DIntArray(int h, int w) : height(h), width(w)
+	BoundCheckIntArray(int len) : arrlen(len)
 	{
-		
+		arr = new int[len];
 	}
-	
-
-
-	~BoundCheck2DIntArray()
+	int& operator[](int index)
+	{
+		if (index < 0 || index >= arrlen)
+		{
+			cout << "Array index out of bound exception" << endl;
+			exit(1);
+		}
+		return arr[index];
+	}
+	int operator[] (int index) const
+	{
+		if (index < 0 || index >= arrlen)
+		{
+			cout << "Array index out of bound exception" << endl;
+			exit(1);
+		}
+		return arr[index];
+	}
+	int GetArrLen() const
+	{
+		return arrlen;
+	}
+	~BoundCheckIntArray()
 	{
 		delete[] arr;
 	}
 };
 
-int main(void)
-{
-	/*BoundCheckPointArray arr(3);
-	arr[0] = new Point(3, 4);
-	arr[1] = new Point(5, 6);
-	arr[2] = new Point(7, 8);
+typedef BoundCheckIntArray* BoundCheckIntArrayPtr;
 
-	for (int i = 0; i < arr.GetArrLen(); i++)
+class BoundCheck2DIntArray
+{
+private:
+	BoundCheckIntArray** arr;
+	int arrlen;
+	BoundCheck2DIntArray(const BoundCheck2DIntArray& arr) {}
+	BoundCheck2DIntArray& operator=(const BoundCheck2DIntArray& arr) {}
+
+public:
+	BoundCheck2DIntArray(int col, int row) : arrlen(col)
 	{
-		cout << arr[i];
+		arr = new BoundCheckIntArrayPtr[col];
+		for (int i = 0; i < col; i++)
+		{
+			arr[i] = new BoundCheckIntArray(row);
+		}
+	}
+	BoundCheckIntArray& operator[](int index)
+	{
+		if (index < 0 || index >= arrlen)
+		{
+			cout << "Array index out of bound exception" << endl;
+			exit(1);
+		}
+		return *(arr[index]);
+	}
+	~BoundCheck2DIntArray()
+	{
+		for (int i = 0; i < arrlen; i++)
+		{
+			delete arr[i];
+		}
+		delete[] arr;
 	}
 
-	delete arr[0];
-	delete arr[1];
-	delete arr[2];*/
+	ostream& operator[](ostream& os)
+	{
 
+		return os;
+	}
+};
+
+int main(void)
+{
 	BoundCheck2DIntArray arr2d(3, 4);
+
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			arr2d[i][j] = i + j;
+		}
+	}
+
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 4; j++)
+		{
+			cout << arr2d[i][j] << ' ';
+		}
+		cout << endl;
+	}
 
 	return 0;
 }

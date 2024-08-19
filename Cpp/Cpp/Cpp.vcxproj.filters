@@ -876,6 +876,9 @@
     <ClCompile Include="8. DynamicBadCastRef.cpp">
       <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 16\1</Filter>
     </ClCompile>
+    <ClCompile Include="02-3-re. Prac.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 02\5. Prac-3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
