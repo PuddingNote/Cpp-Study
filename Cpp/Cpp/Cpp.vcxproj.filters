@@ -879,6 +879,12 @@
     <ClCompile Include="02-3-re. Prac.cpp">
       <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 02\5. Prac-3</Filter>
     </ClCompile>
+    <ClCompile Include="1. NewDeleteOverloading.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
+    <ClCompile Include="2. ArrayNewDeleteOverloading.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
