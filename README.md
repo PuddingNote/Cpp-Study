@@ -110,6 +110,9 @@
   - Reread Day2, Day5 Complete
   - Reread Day13 ~ing
 
+- Day20
+  - Day13 Chapter11-3 ~ing
+
 </details>
 </br>
 
