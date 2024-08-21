@@ -1,5 +1,5 @@
 /*
-업데이트 정보 : [2024-08-16] ver0.11
+업데이트 정보 : [2024-08-21] ver1.0
 */
 
 #ifndef __NORMALACCOUNT_H__
@@ -15,7 +15,7 @@ private:
 	int interRate;
 
 public:
-	NormalAccount(int id, String name, int balance, int rate) : Account(id, name, balance), interRate(rate) {}
+	NormalAccount(int id, String name, int money, int rate) : Account(id, name, money), interRate(rate) {}
 
 	virtual void Deposit(int money)
 	{

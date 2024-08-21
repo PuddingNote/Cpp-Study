@@ -885,6 +885,24 @@
     <ClCompile Include="2. ArrayNewDeleteOverloading.cpp">
       <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
     </ClCompile>
+    <ClCompile Include="3. PointerOperatorOverloading.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
+    <ClCompile Include="4. SmartPointer.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
+    <ClCompile Include="5. Functor.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
+    <ClCompile Include="6. SortFunctor.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
+    <ClCompile Include="7. ConvToObject.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
+    <ClCompile Include="8. ConvToPrimitive.cpp">
+      <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">

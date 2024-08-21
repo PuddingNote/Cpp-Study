@@ -47,8 +47,8 @@ public:
 	void ShowAccInfo() const
 	{
 		cout << "°èÁÂID: " << id << endl;
-		cout << "ÀÌ ¸§: " << name << endl;
-		cout << "ÀÜ ¾×: " << balance << endl;
+		cout << "ÀÌ  ¸§: " << name << endl;
+		cout << "ÀÜ  ¾×: " << balance << endl;
 	}
 	~Account()
 	{

@@ -1,5 +1,5 @@
 /*
-업데이트 정보 : [2024-08-14] ver0.9
+업데이트 정보 : [2024-08-21] ver1.0
 */
 
 #include "String.h"
@@ -10,14 +10,14 @@
 class Account
 {
 private:
-	int id;
-	String name;
+	int accID;
+	String cusName;
 	int balance;
 
 public:
-	Account(int id, String name, int balance);
+	Account(int id, String name, int money);
 	int GetID() const;
-	void Deposit(int money);
+	virtual void Deposit(int money);
 	int Withdraw(int money);
 	void ShowAccInfo() const;
 };

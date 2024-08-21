@@ -1,19 +1,19 @@
 /*
-업데이트 정보 : [2024-08-16] ver0.11
+업데이트 정보 : [2024-08-21] ver1.0
 */
 
 #include "BankingCommonDecl.h"
 #include "Account.h"
 #include "AccountException.h"
 
-Account::Account(int id, String name, int balance) : id(id), balance(balance)
+Account::Account(int id, String name, int money) : accID(id), balance(money)
 {
-	this->name = name;
+	cusName = name;
 }
 
 int Account::GetID() const
 {
-	return id;
+	return accID;
 }
 
 void Account::Deposit(int money)
@@ -39,13 +39,13 @@ int Account::Withdraw(int money)
 	}
 
 	balance -= money;
-	cout << "출금 완료" << endl << endl;
+
 	return money;
 }
 
 void Account::ShowAccInfo() const
 {
-	cout << "계좌ID: " << id << endl;
-	cout << "이 름: " << name << endl;
-	cout << "잔 액: " << balance << endl;
+	cout << "계좌ID: " << accID << endl;
+	cout << "이  름: " << cusName << endl;
+	cout << "잔  액: " << balance << endl;
 }

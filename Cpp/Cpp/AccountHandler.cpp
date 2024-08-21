@@ -1,5 +1,5 @@
 /*
-업데이트 정보 : [2024-08-16] ver0.11
+업데이트 정보 : [2024-08-21] ver1.0
 */
 
 #include "Account.h"
@@ -30,16 +30,20 @@ void AccountHandler::MakeAccount()
 
 	cout << "[계좌종류선택]" << endl;
 	cout << "1.보통예금계좌 2.신용신뢰계좌" << endl;
+	cout << "선택 : ";
 	cin >> input;
-
-	switch (input)
+	
+	if (input == NORMAL)
 	{
-	case NORMAL:
 		MakeNormalAccount();
-		break;
-	case CREDIT:
+	}
+	else if (input == CREDIT)
+	{
 		MakeCreditAccount();
-		break;
+	}
+	else
+	{
+		cout << "잘못된 입력입니다." << endl;
 	}
 }
 
@@ -50,9 +54,26 @@ void AccountHandler::MakeNormalAccount()
 	int money;
 	int interRate;
 
-	cout << "[보통예금계좌 개설]" << endl;
-	cout << "계좌ID: ";
-	cin >> id;
+	cout << "[보통예금계좌 개설 시작]" << endl;
+	while (true)
+	{
+		bool flag = false;
+
+		cout << "계좌ID: ";
+		cin >> id;
+
+		for (int i = 0; i < accountNum; i++)
+		{
+			if (id == account[i]->GetID())
+			{
+				flag = true;
+				cout << "이미 일치하는 ID가 있습니다. 다시 입력해 주세요" << endl;
+				break;
+			}
+		}
+
+		if (flag == false) break;
+	}
 	cout << "이  름: ";
 	cin >> name;
 	cout << "입금액: ";
@@ -74,9 +95,26 @@ void AccountHandler::MakeCreditAccount()
 	int interRate;
 	int creditLevel;
 
-	cout << "[신용신뢰계좌 개설]" << endl;
-	cout << "계좌ID: ";
-	cin >> id;
+	cout << "[신용신뢰계좌 개설 시작]" << endl;
+	while (true)
+	{
+		bool flag = false;
+
+		cout << "계좌ID: ";
+		cin >> id;
+
+		for (int i = 0; i < accountNum; i++)
+		{
+			if (id == account[i]->GetID())
+			{
+				flag = true;
+				cout << "이미 일치하는 ID가 있습니다. 다시 입력해 주세요" << endl;
+				break;
+			}
+		}
+
+		if (flag == false) break;
+	}
 	cout << "이  름: ";
 	cin >> name;
 	cout << "입금액: ";
@@ -91,16 +129,20 @@ void AccountHandler::MakeCreditAccount()
 	{
 	case 1:
 		account[accountNum++] = new HighCreditAccount(id, name, money, interRate, LEVEL_A);
-		break;
+		cout << "신용신뢰계좌 개설완료" << endl << endl;
+		return;
 	case 2:
 		account[accountNum++] = new HighCreditAccount(id, name, money, interRate, LEVEL_B);
-		break;
+		cout << "신용신뢰계좌 개설완료" << endl << endl;
+		return;
 	case 3:
 		account[accountNum++] = new HighCreditAccount(id, name, money, interRate, LEVEL_C);
-		break;
+		cout << "신용신뢰계좌 개설완료" << endl << endl;
+		return;
 	}
 
-	cout << "신용신뢰계좌 개설완료" << endl << endl;
+	cout << "잘못된 입력입니다." << endl;
+	cout << "신용신뢰계좌 개설 실패" << endl;
 }
 
 void AccountHandler::DepositMoney()
@@ -111,17 +153,18 @@ void AccountHandler::DepositMoney()
 	cout << "[입     금]" << endl;
 	cout << "계좌ID: ";
 	cin >> id;
-	cout << "입금액: ";
-	cin >> money;
-	cout << endl;
 
 	while (true)
 	{
+		cout << "입금액: ";
+		cin >> money;
+		cout << endl;
+
 		try
 		{
 			for (int i = 0; i < accountNum; i++)
 			{
-				if (account[i]->GetID() == id)
+				if (id == account[i]->GetID())
 				{
 					account[i]->Deposit(money);
 					cout << "입금 완료" << endl << endl;
@@ -147,20 +190,21 @@ void AccountHandler::WithdrawMoney()
 	cout << "[출     금]" << endl;
 	cout << "계좌ID: ";
 	cin >> id;
-	cout << "출금액: ";
-	cin >> money;
-	cout << endl;
 
 	while (true)
 	{
+		cout << "출금액: ";
+		cin >> money;
+		cout << endl;
+
 		try
 		{
 			for (int i = 0; i < accountNum; i++)
 			{
-				if (account[i]->GetID() == id)
+				if (id == account[i]->GetID())
 				{
 					account[i]->Withdraw(money);
-					cout << "출금 완료" << endl << endl;;
+					cout << "출금 완료" << endl << endl;
 					return;
 				}
 			}
@@ -192,10 +236,10 @@ void AccountHandler::ShowAccInfo() const
 
 AccountHandler::~AccountHandler()
 {
-	// 오류 분석 필요
-	// 여러개의 포인터가 하나의 주소를 가리켜서 여러번 삭제될때 동일한 오류가 뜬 적이 있음
+	// 오류 분석 필요 : Account.h의 Deposit함수를 가상함수로 처리 안했었음;
 	for (int i = 0; i < accountNum; i++)
 	{
-		//delete account[i];
+		//cout << account[i] << endl;
+		delete account[i];
 	}
 }
