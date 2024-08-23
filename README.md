@@ -5,111 +5,141 @@
   <summary>일정</summary>
 ◆ 2024-08-01 Start ~ 2024-08-17 Read through Once / 2024-08-21 Read through Twice(Finish Book)
   
-- Day1
-  - Chapter01 1~6 Complete
-  - Chapter02 1~3 Complete
+- Day01
+  - Chapter01 [C언어 기반의 C++ 1]
+    - 1~6 Complete
+  - Chapter02 [C언어 기반의 C++ 2]
+    - 1~3 Complete
 
-- Day2
-  - Chapter02 4~6 Complete
+- Day02
+  - Chapter02
+    - 4~6 Complete
       - Page 95~96 - Prac-3 / 책 완독 후 한번 더 풀어보기 (O)
-  - Chapter03 1 ~ing
+  - Chapter03 [클래스의 기본]
+    - 1 ~ing
 
-- Day3
-  - Chapter03 1 Complete
-  - Chapter03 2 ~ing
+- Day03
+  - Chapter03
+    - 1 Complete
+    - 2 ~ing
 
-- Day4
-  - Chapter03 2~3 Complete
-  - Chapter04 1 Complete
-  - Chapter04 2 ~ing
+- Day04
+  - Chapter03
+    - 2~3 Complete
+  - Chapter04 [클래스의 완성]
+    - 1 Complete
+    - 2 ~ing
 
-- Day5
-  - Chapter04 2~5 Complete
-    - Page 199~201 - Self-Reference의 반환 / 책 완독 후 한번 더 공부하기 (O)
-  - Chapter05 1 ~ing
+- Day05
+  - Chapter04
+    - 2~5 Complete
+      - Page 199~201 - Self-Reference의 반환 / 책 완독 후 한번 더 공부하기 (O)
+  - Chapter05 [복사 생성자]
+    - 1 ~ing
 
-- Day6
-  - Chapter05 1~4 Complete
-  - Chapter06 1~2 Complete
-  - Chapter06 3 ~ing
+- Day06
+  - Chapter05
+    - 1~4 Complete
+  - Chapter06 [friend와 static 그리고 const]
+    - 1~2 Complete
+    - 3 ~ing
 
-- Day7
-  - Chapter06 3~4 Complete
-  - Chapter07 1~3 Complete
-  - Chapter07 4 ~ing
+- Day07
+  - Chapter06
+    - 3~4 Complete
+  - Chapter07 [상속의 이해]
+    - 1~3 Complete
+    - 4 ~ing
 
-- Day8
-  - Chapter07 4~5 Complete
-  - Chapter08 1 Complete
-  - Chapter08 2 ~ing
+- Day08
+  - Chapter07
+    - 4~5 Complete
+  - Chapter08 [상속과 다형성]
+    - 1 Complete
+    - 2 ~ing
 
-- Day9
-  - Chapter08 2~4 Complete
-  - Chapter09 1 ~ing
+- Day09
+  - Chapter08
+    - 2~4 Complete
+  - Chapter09 [가상의 원리와 다중상속]
+    - 1 ~ing
 
 - Day10
-  - Chapter09 1 Complete
-  - Chapter09 2 ~ing
+  - Chapter09
+    - 1 Complete
+    - 2 ~ing
 
 - Day11
   - ~
 
 - Day12
-  - Chapter09 2~3 Complete
-    - Page 394 - OOP Project07 / AccountHandler.cpp 의 소멸자 오류 분석 필요 (O)
-      - Day21에서 해결
-  - Chapter10 1~4 Complete
-  - Chapter11 1 ~ing
+  - Chapter09
+    - 2~3 Complete
+      - Page 394 - OOP Project07 / AccountHandler.cpp 의 소멸자 오류 분석 필요 (O)
+        - Day21에서 해결
+  - Chapter10 [연산자 오버로딩 1]
+    - 1~4 Complete
+  - Chapter11 [연산자 오버로딩 2]
+    - 1 ~ing
 
 - Day13
-  - Chapter11 1~4 Complete
-    - Page 468 - Prac-2-2 / 책 완독 후 풀어보기 (O)
-    - Page 469~493 - 11-3 / 책 완독 후 공부하기 (O)
-  - Fix Chapter09 - 3.OOP Project07
-    - 앞으로 추가되는 OOP Project는 위 폴더에서 수정작업 하기
-      - 수정할때마다 version별로 표시
-    - Update ver0.8
-    - Add AccountArray.cpp
-    - Add AccountArray.h
-  - Chapter12 1 ~ing
+  - Chapter11
+    - 1~4 Complete
+      - Page 468 - Prac-2-2 / 책 완독 후 풀어보기 (O)
+      - Page 469~493 - 11-3 / 책 완독 후 공부하기 (O)
+    - Fix Chapter09 - 3.OOP Project07
+      - 앞으로 추가되는 OOP Project는 위 폴더에서 수정작업 하기
+        - 수정할때마다 version별로 표시
+      - Update ver0.8
+      - Add AccountArray.cpp
+      - Add AccountArray.h
+  - Chapter12 [String 클래스의 디자인]
+    - 1 ~ing
 
 - Day14
-  - Chapter12 1~3 Complete
-  - Fix OOP Project
-    - Update ver0.9
-    - Add String.h, String.cpp
-    - Fix Account.h, NormalAccont.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
-  - Chapter13 1~3 Complete
-    - Page 552~553 - Prac-2 / Day13의 11-3 완독 후 풀어보기 (O)
-  - Fix OOP Project
-    - Update ver0.10
-    - Add BoundCheckArray.h
-    - Fix AccountHandler.h
-    - Del AccountArray.h, AccountArray.cpp
-  - Chapter14 1 ~ing
+  - Chapter12
+    - 1~3 Complete
+    - Fix OOP Project
+      - Update ver0.9
+      - Add String.h, String.cpp
+      - Fix Account.h, NormalAccont.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
+  - Chapter13 [템플릿 1]
+    - 1~3 Complete
+      - Page 552~553 - Prac-2 / Day13의 11-3 완독 후 풀어보기 (O)
+    - Fix OOP Project
+      - Update ver0.10
+      - Add BoundCheckArray.h
+      - Fix AccountHandler.h
+      - Del AccountArray.h, AccountArray.cpp
+  - Chapter14 [템플릿 2]
+    - 1 ~ing
 
 - Day15
   - ~
 
 - Day16
-  - Chapter14 1~4 Complete
-  - Chapter15 1~6 Complete
-  - Fix OOP Project
-    - Update ver0.11
-    - Add AccountException.h
-    - Fix NormalAccount.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
-  - Chapter16 1 ~ing
+  - Chapter14
+    - 1~4 Complete
+  - Chapter15 [예외처리]
+    - 1~6 Complete
+    - Fix OOP Project
+      - Update ver0.11
+      - Add AccountException.h
+      - Fix NormalAccount.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
+  - Chapter16 [C++ 형 변환 연산자와 맺는 글]
+    - 1 ~ing
 
 - Day17
-  - Chapter16 1~2 Complete
-  - Book End
+  - Chapter16
+    - 1~2 Complete
+  - Book read through Once / One more read
  
 - Day18
   - ~
 
 - Day19
-  - Reread Day2, Day5 Complete
-  - Reread Day13 ~ing
+  - Day2, Day5 Complete
+  - Day13 ~ing
 
 - Day20
   - Day13 Chapter11-3 ~ing
@@ -117,9 +147,11 @@
 - Day21
   - Day13 Chapter11 Page 469~493 - 11-3 Complete
   - Day14 Chapter13 Page 552~553 - Prac-2 Complete
-  - Update OOP Project ver1.0
+  - Fix OOP Project
+    - Update ver1.0
     - Day12 AccountHandler.cpp 의 소멸자 오류 분석 필요 : Account.h의 Deposit함수를 가상함수로 선언하지 않아서 작동 오류 발생
-  - Finish Book
+    - Finish OOP Project
+  - Book read through Twice / Finish Book
 
 </details>
 </br>
@@ -127,8 +159,19 @@
 ### ■ 윤성우의 열혈 자료구조 - PDF
 <details>
   <summary>일정</summary>
-◆ 2024-??-?? Start ~ 
+◆ 2024-08-22 Start ~ 
 
+- Day01
+  - Chapter01 [자료구조와 알고리즘의 이해]
+    - 순차탐색 / 이진탐색 Complete
+    - 빅오 표기법 Complete
+  - Chapter02 [재귀]
+    - 이진탑색 재귀 Complete
+    - 하노이타워 ~ing
+   
+- Day02
+  - Chapter02
+    - 하노이타워 Complete
 
 
 
@@ -138,9 +181,9 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ 2024-??-?? Start ~ 
+◆ 2024-08-?? Start ~ 
 
-
+- Day01
   
 
 </details>
