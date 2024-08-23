@@ -274,11 +274,17 @@
     <Filter Include="소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 15\6. OOP Project11\Chapter 09 -&gt;OOP Project07">
       <UniqueIdentifier>{3a3bcc53-93c5-4935-8977-370a292ee1cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2. 자료구조">
-      <UniqueIdentifier>{3a6f8795-8e58-487c-bf6d-1fb1de3c74f7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL">
       <UniqueIdentifier>{05931028-4472-439f-a823-8d5806e41690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조">
+      <UniqueIdentifier>{3a6f8795-8e58-487c-bf6d-1fb1de3c74f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter01">
+      <UniqueIdentifier>{531f76a7-8621-48f7-bd37-b24912fea199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter02">
+      <UniqueIdentifier>{36155f5d-5838-4319-98a5-6001a9d2c83f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -902,6 +908,9 @@
     </ClCompile>
     <ClCompile Include="8. ConvToPrimitive.cpp">
       <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 11\3</Filter>
+    </ClCompile>
+    <ClCompile Include="Hanoi Tower.cpp">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
