@@ -173,6 +173,11 @@
   - Chapter02
     - 하노이타워 Complete
 
+- Day03
+  - Chapter03 [연결 리스트 1]
+    - 추상 자료형 Complete
+    - 배열을 이용한 리스트 구현 Complete
+
 
 
 </details>
@@ -182,10 +187,16 @@
 <details>
   <summary>일정</summary>
 ◆ 2024-08-?? Start ~ 
-
-- Day01
   
 
 </details>
 </br>
 
+### ■ Effective Modern C++ - BOOK
+<details>
+  <summary>일정</summary>
+◆ 2024-??-?? Start ~ 
+  
+
+</details>
+</br>
