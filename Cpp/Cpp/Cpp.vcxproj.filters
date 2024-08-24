@@ -286,6 +286,18 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter02">
       <UniqueIdentifier>{36155f5d-5838-4319-98a5-6001a9d2c83f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter03">
+      <UniqueIdentifier>{2690db91-759e-42e0-9a40-00112fd88d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter03\1. ArrayList">
+      <UniqueIdentifier>{b3661ee7-fc23-43f4-8b91-1346d17a8ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter03\2. ArrayListPointStructBase">
+      <UniqueIdentifier>{0d156cae-af01-4250-b44c-31679a7b5171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter04">
+      <UniqueIdentifier>{d1e7eb49-bc00-4be3-8719-ccce7ddfcdea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -912,6 +924,51 @@
     <ClCompile Include="Hanoi Tower.cpp">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
     </ClCompile>
+    <ClCompile Include="BinarySearch.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="BSWorstOpCount.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearSearch.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="FiboFuncProcedure.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciFunc.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="HanoiTowerSolu.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveBinarySearch.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveFactorial.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveFunc.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="ListMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\1. ArrayList</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\1. ArrayList</Filter>
+    </ClCompile>
+    <ClCompile Include="test.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\1. ArrayList</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\1. ArrayList</Filter>
+    </ClCompile>
+    <ClCompile Include="PointListMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\2. ArrayListPointStructBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\2. ArrayListPointStructBase</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -967,6 +1024,12 @@
     </ClInclude>
     <ClInclude Include="1-1. PointTemplate.h">
       <Filter>소스 파일\1. 윤성우 열혈 C++ Programming 개정판\Chapter 14\1</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\1. ArrayList</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\2. ArrayListPointStructBase</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
