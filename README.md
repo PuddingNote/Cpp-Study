@@ -186,8 +186,12 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ 2024-08-?? Start ~ 
-  
+◆ 2024-08-25 Start ~ 
+
+- Day01
+  - Chapter01 [STL을 학습하기 전 꼭 알아야할 C++ 문법]
+    - Section 1~5 Complete
+    - Section 6 ~ing
 
 </details>
 </br>
