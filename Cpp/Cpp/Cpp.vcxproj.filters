@@ -319,6 +319,21 @@
     <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\6">
       <UniqueIdentifier>{870f02e9-eb8f-4f57-801c-574bc9cde4e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\7">
+      <UniqueIdentifier>{6fc6f7e3-0235-4a9b-8343-b5b5a28f1821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\Prac">
+      <UniqueIdentifier>{046ab1b6-d2a6-48b8-862b-b531d51296e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL\Chapter02">
+      <UniqueIdentifier>{cd156e40-9022-4478-be6f-f61a977f6e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL\Chapter02\1">
+      <UniqueIdentifier>{5fb09957-fc01-4296-93dd-f4ba13b087cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL\Chapter02\2">
+      <UniqueIdentifier>{d8ccbfdc-5f67-4c52-b3a9-1a8a85206025}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1043,6 +1058,45 @@
     </ClCompile>
     <ClCompile Include="1-18.cpp">
       <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\6</Filter>
+    </ClCompile>
+    <ClCompile Include="1-19.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\6</Filter>
+    </ClCompile>
+    <ClCompile Include="1-20.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\6</Filter>
+    </ClCompile>
+    <ClCompile Include="1-21.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\6</Filter>
+    </ClCompile>
+    <ClCompile Include="1-22.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\6</Filter>
+    </ClCompile>
+    <ClCompile Include="1-23.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\7</Filter>
+    </ClCompile>
+    <ClCompile Include="1-24.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\7</Filter>
+    </ClCompile>
+    <ClCompile Include="1-25.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\7</Filter>
+    </ClCompile>
+    <ClCompile Include="1-26.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\7</Filter>
+    </ClCompile>
+    <ClCompile Include="1-27.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\7</Filter>
+    </ClCompile>
+    <ClCompile Include="1-4. Prac.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\Prac</Filter>
+    </ClCompile>
+    <ClCompile Include="1-5. Prac.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter01\Prac</Filter>
+    </ClCompile>
+    <ClCompile Include="2-1.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter02\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2-2.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter02\1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
