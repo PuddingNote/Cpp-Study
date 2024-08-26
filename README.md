@@ -193,6 +193,13 @@
     - Section 1~5 Complete
     - Section 6 ~ing
 
+- Day02
+  - Chapter01
+    - Section 6~7 Complete
+    - Prac Complete
+  - Chapter02 [함수 포인터]
+    - Section 1 Complete
+
 </details>
 </br>
 
