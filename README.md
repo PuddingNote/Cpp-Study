@@ -180,6 +180,7 @@
 
 
 
+
 </details>
 </br>
 
@@ -200,6 +201,22 @@
   - Chapter02 [함수 포인터]
     - Section 1 Complete
 
+- Day03
+  - Chapter02
+    - Section 2~3 Complete
+  - Chapter03 [함수 객체]
+    - Section 1~2 Complete
+    - Prac Complete
+  - Chapter04 [템플릿]
+    - Section 1~3 Complete
+    - Prac Complete
+  - Chapter05 [STL 소개]
+    - Section 1 Complete
+    - Section 2 ~ing
+
+
+
+
 </details>
 </br>
 
@@ -208,6 +225,8 @@
   <summary>일정</summary>
 ◆ 2024-??-?? Start ~ 
   
+
+
 
 </details>
 </br>
