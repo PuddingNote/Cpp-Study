@@ -1284,6 +1284,30 @@
     <ClCompile Include="5-6.cpp">
       <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
     </ClCompile>
+    <ClCompile Include="5-7.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
+    <ClCompile Include="5-8.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
+    <ClCompile Include="5-9.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
+    <ClCompile Include="5-10.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
+    <ClCompile Include="5-11.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
+    <ClCompile Include="5-12.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
+    <ClCompile Include="5-13.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
+    <ClCompile Include="5-14.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
