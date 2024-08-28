@@ -3,7 +3,7 @@
 ### ■ 윤성우 열혈 C++ 프로그래밍 개정판 - BOOK
 <details> 
   <summary>일정</summary>
-◆ 2024-08-01 Start ~ 2024-08-17 Read through Once / 2024-08-21 Read through Twice(Finish Book)
+◆ [+3]2024-08-01 Start ~ 2024-08-17 Read through Once / 2024-08-21 Read through Twice(Finish Book)
   
 - Day01
   - Chapter01 [C언어 기반의 C++ 1]
@@ -70,19 +70,16 @@
     - 2 ~ing
 
 - Day11
-  - ~
-
-- Day12
   - Chapter09
     - 2~3 Complete
       - Page 394 - OOP Project07 / AccountHandler.cpp 의 소멸자 오류 분석 필요 (O)
-        - Day21에서 해결
+        - Day18에서 해결
   - Chapter10 [연산자 오버로딩 1]
     - 1~4 Complete
   - Chapter11 [연산자 오버로딩 2]
     - 1 ~ing
 
-- Day13
+- Day12
   - Chapter11
     - 1~4 Complete
       - Page 468 - Prac-2-2 / 책 완독 후 풀어보기 (O)
@@ -96,7 +93,7 @@
   - Chapter12 [String 클래스의 디자인]
     - 1 ~ing
 
-- Day14
+- Day13
   - Chapter12
     - 1~3 Complete
     - Fix OOP Project
@@ -105,7 +102,7 @@
       - Fix Account.h, NormalAccont.h, HighCreditAccount.h, Account.cpp, AccountHandler.cpp
   - Chapter13 [템플릿 1]
     - 1~3 Complete
-      - Page 552~553 - Prac-2 / Day13의 11-3 완독 후 풀어보기 (O)
+      - Page 552~553 - Prac-2 / Day12의 11-3 완독 후 풀어보기 (O)
     - Fix OOP Project
       - Update ver0.10
       - Add BoundCheckArray.h
@@ -114,10 +111,7 @@
   - Chapter14 [템플릿 2]
     - 1 ~ing
 
-- Day15
-  - ~
-
-- Day16
+- Day14
   - Chapter14
     - 1~4 Complete
   - Chapter15 [예외처리]
@@ -129,27 +123,24 @@
   - Chapter16 [C++ 형 변환 연산자와 맺는 글]
     - 1 ~ing
 
-- Day17
+- Day15
   - Chapter16
     - 1~2 Complete
   - Book read through Once / One more read
- 
-- Day18
-  - ~
 
-- Day19
+- Day16
   - Day2, Day5 Complete
-  - Day13 ~ing
+  - Day12 ~ing
 
-- Day20
-  - Day13 Chapter11-3 ~ing
+- Day27
+  - Day12 Chapter11-3 ~ing
 
-- Day21
-  - Day13 Chapter11 Page 469~493 - 11-3 Complete
-  - Day14 Chapter13 Page 552~553 - Prac-2 Complete
+- Day18
+  - Day12 Chapter11 Page 469~493 - 11-3 Complete
+  - Day13 Chapter13 Page 552~553 - Prac-2 Complete
   - Fix OOP Project
     - Update ver1.0
-    - Day12 AccountHandler.cpp 의 소멸자 오류 분석 필요 : Account.h의 Deposit함수를 가상함수로 선언하지 않아서 작동 오류 발생
+    - Day11 AccountHandler.cpp 의 소멸자 오류 분석 필요 : Account.h의 Deposit함수를 가상함수로 선언하지 않아서 작동 오류 발생
     - Finish OOP Project
   - Book read through Twice / Finish Book
 
@@ -159,7 +150,7 @@
 ### ■ 윤성우의 열혈 자료구조 - PDF
 <details>
   <summary>일정</summary>
-◆ 2024-08-22 Start ~ 
+◆ [+3]2024-08-22 Start ~ 
 
 - Day01
   - Chapter01 [자료구조와 알고리즘의 이해]
@@ -178,7 +169,9 @@
     - 추상 자료형 Complete
     - 배열을 이용한 리스트 구현 Complete
 
-
+- Day04
+  - Chapter04 [연결 리스트]
+    - 연결리스트의 개념적인 이해 Complete
 
 
 </details>
@@ -187,7 +180,7 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ 2024-08-25 Start ~ 
+◆ [+0]2024-08-25 Start ~ 
 
 - Day01
   - Chapter01 [STL을 학습하기 전 꼭 알아야할 C++ 문법]
@@ -214,7 +207,9 @@
     - Section 1 Complete
     - Section 2 ~ing
 
-
+- Day04
+  - Chapter05
+    - Section 2 Complete
 
 
 </details>
