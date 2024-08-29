@@ -373,6 +373,12 @@
     <Filter Include="소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2">
       <UniqueIdentifier>{1987636f-cf6c-4c14-8453-92e42c30e50a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList">
+      <UniqueIdentifier>{bd167ced-e11a-4dfe-9da4-11bc05fb78d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList\DLinkedList">
+      <UniqueIdentifier>{88c10e7e-0d43-47bd-9a15-aa76d3326d54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1308,6 +1314,21 @@
     <ClCompile Include="5-14.cpp">
       <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter05\2</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList ex.cpp">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinked.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedList.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList\DLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedListSortMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList\DLinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -1369,6 +1390,9 @@
     </ClInclude>
     <ClInclude Include="Point.h">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter03\2. ArrayListPointStructBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DLinkedList.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList\DLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
