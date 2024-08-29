@@ -162,7 +162,7 @@
    
 - Day02
   - Chapter02
-    - 하노이타워 Complete
+    - 하노이타워 Complete / 비선형 자료구조 공부 전 다시 공부해보기 (-)
 
 - Day03
   - Chapter03 [연결 리스트 1]
@@ -173,6 +173,12 @@
   - Chapter04 [연결 리스트]
     - 연결리스트의 개념적인 이해 Complete
 
+- Day05
+  - Chapter04
+    - 단순연결리스트의 ADT와 구현 Complete
+    - 연결 리스트의 정렬 삽입의 구현 Complete / 비선형 자료구조 공부 전 다시 공부해보기 (-)
+
+
 
 </details>
 </br>
@@ -180,7 +186,7 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ [+0]2024-08-25 Start ~ 
+◆ [+1]2024-08-25 Start ~ 
 
 - Day01
   - Chapter01 [STL을 학습하기 전 꼭 알아야할 C++ 문법]
@@ -209,7 +215,8 @@
 
 - Day04
   - Chapter05
-    - Section 2 Complete
+    - Section 2 Complete / Prac 다시 풀어보기 (X)
+
 
 
 </details>
