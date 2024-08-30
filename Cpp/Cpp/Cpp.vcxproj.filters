@@ -379,6 +379,18 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList\DLinkedList">
       <UniqueIdentifier>{88c10e7e-0d43-47bd-9a15-aa76d3326d54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter05">
+      <UniqueIdentifier>{9eec1752-1db4-4cd1-aef6-180340ef3bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter05\CLinkedList">
+      <UniqueIdentifier>{af9fcc46-27e7-4eee-aa70-f868927bfcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBLinkedList">
+      <UniqueIdentifier>{0a696ec0-5209-4eac-850c-6ee208253316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList">
+      <UniqueIdentifier>{8f41e9d4-7bde-4d5d-aae8-2f40971c6999}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1329,6 +1341,24 @@
     <ClCompile Include="DLinkedListSortMain.c">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList\DLinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="CLinkedList.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\CLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLinkedList.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedListMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\CLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLinkedListMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDLinkedList.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDLinkedListMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -1393,6 +1423,15 @@
     </ClInclude>
     <ClInclude Include="DLinkedList.h">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter04\1. LinkedList\DLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkedList.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\CLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLinkedList.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="DBDLinkedList.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
