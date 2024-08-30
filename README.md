@@ -157,7 +157,7 @@
     - 순차탐색 / 이진탐색 Complete
     - 빅오 표기법 Complete
   - Chapter02 [재귀]
-    - 이진탑색 재귀 Complete
+    - 이진탐색 재귀 Complete
     - 하노이타워 ~ing
    
 - Day02
@@ -170,7 +170,7 @@
     - 배열을 이용한 리스트 구현 Complete
 
 - Day04
-  - Chapter04 [연결 리스트]
+  - Chapter04 [연결 리스트 2]
     - 연결리스트의 개념적인 이해 Complete
 
 - Day05
@@ -178,7 +178,11 @@
     - 단순연결리스트의 ADT와 구현 Complete
     - 연결 리스트의 정렬 삽입의 구현 Complete / 비선형 자료구조 공부 전 다시 공부해보기 (-)
 
-
+- Day06
+  - Chapter05 [연결 리스트 3]
+    - 원형 리스트 Complete
+    - 양방향 연결 리스트 ~ing
+      - DBDLinkedList.c 코드 ~ing
 
 </details>
 </br>
@@ -186,7 +190,7 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ [+1]2024-08-25 Start ~ 
+◆ [+2]2024-08-25 Start ~ 
 
 - Day01
   - Chapter01 [STL을 학습하기 전 꼭 알아야할 C++ 문법]
@@ -215,7 +219,7 @@
 
 - Day04
   - Chapter05
-    - Section 2 Complete / Prac 다시 풀어보기 (X)
+    - Section 2 Complete / Prac 다시 풀어보기 (-)
 
 
 
