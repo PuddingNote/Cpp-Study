@@ -150,7 +150,7 @@
 ### ■ 윤성우의 열혈 자료구조 - PDF
 <details>
   <summary>일정</summary>
-◆ [+3]2024-08-22 Start ~ 
+◆ [+5]2024-08-22 Start ~ 
 
 - Day01
   - Chapter01 [자료구조와 알고리즘의 이해]
@@ -190,7 +190,7 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ [+2]2024-08-25 Start ~ 
+◆ [+4]2024-08-25 Start ~ 
 
 - Day01
   - Chapter01 [STL을 학습하기 전 꼭 알아야할 C++ 문법]
