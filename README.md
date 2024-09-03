@@ -126,13 +126,13 @@
 - Day15
   - Chapter16
     - 1~2 Complete
-  - Book read through Once / One more read
+  - Book read through Once / Start One more read
 
 - Day16
   - Day2, Day5 Complete
   - Day12 ~ing
 
-- Day27
+- Day17
   - Day12 Chapter11-3 ~ing
 
 - Day18
@@ -150,7 +150,7 @@
 ### ■ 윤성우의 열혈 자료구조 - PDF
 <details>
   <summary>일정</summary>
-◆ [+6]2024-08-22 Start ~ 
+◆ 2024-08-22 Start ~ 
 
 - Day01
   - Chapter01 [자료구조와 알고리즘의 이해]
@@ -182,7 +182,19 @@
   - Chapter05 [연결 리스트 3]
     - 원형 리스트 Complete
     - 양방향 연결 리스트 ~ing
-      - DBDLinkedList.c 코드 ~ing
+      - DBDLinkedList.c 구현 ~ing
+
+- Day07
+  - Chapter05
+    - 양방향 연결 리스트 Complete
+      - DBDLinkedList.c 구현 Complete
+  - Chapter06 [스택]
+    - 스택의 이해와 ADT 정의 Complete
+    - 스택의 배열 기반 구현 Complete
+    - 스택의 연결리스트 기반 구현 ~ing
+      - CLLBaseStack.c 구현 ~ing
+
+
 
 </details>
 </br>
@@ -190,7 +202,7 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ [+5]2024-08-25 Start ~ 
+◆ 2024-08-25 Start ~ 
 
 - Day01
   - Chapter01 [STL을 학습하기 전 꼭 알아야할 C++ 문법]
