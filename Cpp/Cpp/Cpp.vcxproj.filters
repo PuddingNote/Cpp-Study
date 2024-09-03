@@ -391,6 +391,12 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList">
       <UniqueIdentifier>{8f41e9d4-7bde-4d5d-aae8-2f40971c6999}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06">
+      <UniqueIdentifier>{b8ef88be-48ab-463e-a3af-6cc3dafce908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29">
+      <UniqueIdentifier>{b6324710-3b55-492a-a6fa-f0a5b9712b7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1359,6 +1365,12 @@
     <ClCompile Include="DBDLinkedListMain.c">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="CLLBaseStack.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
+    </ClCompile>
+    <ClCompile Include="CLLBaseStackMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -1432,6 +1444,9 @@
     </ClInclude>
     <ClInclude Include="DBDLinkedList.h">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CLLBaseStack.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
