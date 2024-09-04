@@ -394,23 +394,35 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06">
       <UniqueIdentifier>{b8ef88be-48ab-463e-a3af-6cc3dafce908}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29">
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\1. CLinkedList %28Chapter05와 연동%29">
       <UniqueIdentifier>{b6324710-3b55-492a-a6fa-f0a5b9712b7f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator">
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator">
       <UniqueIdentifier>{f5736570-e18a-4cda-80c8-02447d6988f8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\1. 스택의 활용">
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\1. 스택의 활용">
       <UniqueIdentifier>{825d02a2-c39d-4b3e-af24-c7bfbe3a8253}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator">
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\2. PostCalculator">
       <UniqueIdentifier>{242d3622-6131-42e2-b6a0-d9c4d6de4672}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator">
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\4. InfixCalculator">
       <UniqueIdentifier>{3506b4b5-2ef6-4aa8-ba03-23c57679a364}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\3. InfixToPostfix">
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\3. InfixToPostfix">
       <UniqueIdentifier>{5d8b369c-fe6d-4208-b833-8349e0be0dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter07">
+      <UniqueIdentifier>{938f0214-8e10-4dcb-847f-30c4c833eae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter07\1. CircularQueue">
+      <UniqueIdentifier>{8818036e-9f13-4b82-8a26-08f5c4a0eb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter07\2. HamburgerSim">
+      <UniqueIdentifier>{e1fad22d-c701-4433-8fce-a813a49be224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter07\3. Deque">
+      <UniqueIdentifier>{2b340e3a-78b5-498f-8b46-942bfa26892e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1381,28 +1393,43 @@
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList</Filter>
     </ClCompile>
     <ClCompile Include="CLLBaseStack.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\1. CLinkedList %28Chapter05와 연동%29</Filter>
     </ClCompile>
     <ClCompile Include="CLLBaseStackMain.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\1. CLinkedList %28Chapter05와 연동%29</Filter>
     </ClCompile>
     <ClCompile Include="PostCalculator.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\2. PostCalculator</Filter>
     </ClCompile>
     <ClCompile Include="PostCalculatorMain.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\2. PostCalculator</Filter>
     </ClCompile>
     <ClCompile Include="ListBaseStack.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\1. 스택의 활용</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\1. 스택의 활용</Filter>
     </ClCompile>
     <ClCompile Include="InfixToPostfix.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\3. InfixToPostfix</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\3. InfixToPostfix</Filter>
     </ClCompile>
     <ClCompile Include="InfixCalculator.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\4. InfixCalculator</Filter>
     </ClCompile>
     <ClCompile Include="InfixCalculatorMain.c">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\4. InfixCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueue.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\1. CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueueMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\1. CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="HamburgerSim.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\2. HamburgerSim</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\3. Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="DequeMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\3. Deque</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1479,19 +1506,25 @@
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter05\DBDLinkedList</Filter>
     </ClInclude>
     <ClInclude Include="CLLBaseStack.h">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\1. CLinkedList %28Chapter05와 연동%29</Filter>
     </ClInclude>
     <ClInclude Include="PostCalculator.h">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\2. PostCalculator</Filter>
     </ClInclude>
     <ClInclude Include="ListBaseStack.h">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\1. 스택의 활용</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\1. 스택의 활용</Filter>
     </ClInclude>
     <ClInclude Include="InfixToPostfix.h">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\3. InfixToPostfix</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\3. InfixToPostfix</Filter>
     </ClInclude>
     <ClInclude Include="InfixCalculator.h">
-      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator</Filter>
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\2. Calculator\4. InfixCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\1. CircularQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Deque.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\3. Deque</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
