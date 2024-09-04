@@ -162,7 +162,7 @@
    
 - Day02
   - Chapter02
-    - 하노이타워 Complete / 비선형 자료구조 공부 전 다시 공부해보기 (-)
+    - 하노이타워 Complete / 비선형 자료구조 공부 전 다시 보기 (-)
 
 - Day03
   - Chapter03 [연결 리스트 1]
@@ -176,7 +176,7 @@
 - Day05
   - Chapter04
     - 단순연결리스트의 ADT와 구현 Complete
-    - 연결 리스트의 정렬 삽입의 구현 Complete / 비선형 자료구조 공부 전 다시 공부해보기 (-)
+    - 연결 리스트의 정렬 삽입의 구현 Complete / 비선형 자료구조 공부 전 다시 보기 (-)
 
 - Day06
   - Chapter05 [연결 리스트 3]
@@ -191,10 +191,23 @@
   - Chapter06 [스택]
     - 스택의 이해와 ADT 정의 Complete
     - 스택의 배열 기반 구현 Complete
-    - 스택의 연결리스트 기반 구현 ~ing
+    - 스택의 연결 리스트 기반 구현 ~ing
       - CLLBaseStack.c 구현 ~ing
 
+- Day08
+  - Chapter06
+    - 스택의 연결 리스트 기반 구현 Complete
+      - CLLBaseStack.c 구현 Complete
+    - 계산기 프로그램 구현 Complete
+  - Chapter07 [큐]
+    - 큐의 이해와 ADT 정의 Complete
+    - 큐의 배열 기반 구현 Complete
+    - 큐의 연결 리스트 기반 구현 Complete
+    - 큐의 활용 Complete
+    - 덱(Deque)의 이해와 구현 Complete
+  - 비선형 자료구조 시작 전 선형 자료구조들 다시 한번 복습해보기 (-)
 
+ 
 
 </details>
 </br>
