@@ -397,6 +397,21 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29">
       <UniqueIdentifier>{b6324710-3b55-492a-a6fa-f0a5b9712b7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator">
+      <UniqueIdentifier>{f5736570-e18a-4cda-80c8-02447d6988f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\1. 스택의 활용">
+      <UniqueIdentifier>{825d02a2-c39d-4b3e-af24-c7bfbe3a8253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator">
+      <UniqueIdentifier>{242d3622-6131-42e2-b6a0-d9c4d6de4672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator">
+      <UniqueIdentifier>{3506b4b5-2ef6-4aa8-ba03-23c57679a364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\3. InfixToPostfix">
+      <UniqueIdentifier>{5d8b369c-fe6d-4208-b833-8349e0be0dd4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1371,6 +1386,24 @@
     <ClCompile Include="CLLBaseStackMain.c">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
     </ClCompile>
+    <ClCompile Include="PostCalculator.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="PostCalculatorMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBaseStack.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\1. 스택의 활용</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixToPostfix.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\3. InfixToPostfix</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculatorMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -1447,6 +1480,18 @@
     </ClInclude>
     <ClInclude Include="CLLBaseStack.h">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\CLinkedList %28Chapter05와 연동%29</Filter>
+    </ClInclude>
+    <ClInclude Include="PostCalculator.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\2. PostCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBaseStack.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\1. 스택의 활용</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixToPostfix.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\3. InfixToPostfix</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixCalculator.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter06\Calculator\4. InfixCalculator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
