@@ -162,7 +162,7 @@
    
 - Day02
   - Chapter02
-    - 하노이타워 Complete / 비선형 자료구조 공부 전 다시 보기 (-)
+    - 하노이타워 Complete / 비선형 자료구조 공부 전 다시 보기 (O)
 
 - Day03
   - Chapter03 [연결 리스트 1]
@@ -176,7 +176,7 @@
 - Day05
   - Chapter04
     - 단순연결리스트의 ADT와 구현 Complete
-    - 연결 리스트의 정렬 삽입의 구현 Complete / 비선형 자료구조 공부 전 다시 보기 (-)
+    - 연결 리스트의 정렬 삽입의 구현 Complete / 비선형 자료구조 공부 전 다시 보기 (O)
 
 - Day06
   - Chapter05 [연결 리스트 3]
@@ -205,9 +205,17 @@
     - 큐의 연결 리스트 기반 구현 Complete
     - 큐의 활용 Complete
     - 덱(Deque)의 이해와 구현 Complete
-  - 비선형 자료구조 시작 전 선형 자료구조들 다시 한번 복습해보기 (-)
+  - 비선형 자료구조 시작 전 선형 자료구조들 다시 한번 복습해보기 (O)
 
- 
+- Day09
+  - Chapter08 [트리] - 비선형 자료구조
+    - 트리의 개요 Complete
+    - 이진 트리의 구현 Complete
+    - 이진 트리의 순회(Traversal) Complete
+    - 수식 트리(Expression Tree)의 구현 Complete
+        - ExpressionTree 폴더 코드들 분석하기(-)
+
+
 
 </details>
 </br>
