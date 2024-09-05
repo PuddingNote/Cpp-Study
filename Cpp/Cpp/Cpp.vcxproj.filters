@@ -424,6 +424,18 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter07\3. Deque">
       <UniqueIdentifier>{2b340e3a-78b5-498f-8b46-942bfa26892e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter08">
+      <UniqueIdentifier>{a81454cc-b4da-4389-a383-c7e5c8e61cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree">
+      <UniqueIdentifier>{852fcdae-9a14-497d-8f64-a4e4dfdab866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree2">
+      <UniqueIdentifier>{e9f38e55-1a3c-4ee3-868d-23c8f8892eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree">
+      <UniqueIdentifier>{616bd23e-9707-45cc-8e6e-c6928f842edf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1431,6 +1443,33 @@
     <ClCompile Include="DequeMain.c">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\3. Deque</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTree.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeTraverseMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree2.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree2</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeMain2.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree2</Filter>
+    </ClCompile>
+    <ClCompile Include="08-4. ListBaseStack.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="08-4. BinaryTree2.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionTree.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionTreeMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -1525,6 +1564,21 @@
     </ClInclude>
     <ClInclude Include="Deque.h">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter07\3. Deque</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree2.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\BinaryTree2</Filter>
+    </ClInclude>
+    <ClInclude Include="08-4. ListBaseStack.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="08-4. BinaryTree2.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionTree.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter08\ExpressionTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
