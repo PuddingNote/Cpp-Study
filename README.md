@@ -213,7 +213,7 @@
     - 이진 트리의 구현 Complete
     - 이진 트리의 순회(Traversal) Complete
     - 수식 트리(Expression Tree)의 구현 Complete
-        - ExpressionTree 폴더 코드들 분석하기(-)
+        - ExpressionTree 폴더 코드들 분석하기 (O)
 
 
 
