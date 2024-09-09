@@ -213,8 +213,21 @@
     - 이진 트리의 구현 Complete
     - 이진 트리의 순회(Traversal) Complete
     - 수식 트리(Expression Tree)의 구현 Complete
-        - ExpressionTree 폴더 코드들 분석하기 (O)
+      - ExpressionTree 폴더 코드들 분석하기 (O)
 
+- Day10
+  - Chapter09 [우선순위 큐(Priority Queue)와 힙(Heap)]
+    - 우선순위 큐의 이해 Complete
+    - 힙의 구현과 우선순위 큐의 완성 Complete
+  - Chapter10 [정렬(Sorting)]
+    - 단순한 정렬 알고리즘 Complete
+      - 버블정렬 Complete
+      - 선택정렬 Complete
+      - 삽입정렬 Complete
+    - 복잡하지만 효율적인 정렬 알고리즘 ~ing
+      - 힙정렬 Complete
+      - 병합정렬 Complete
+      - 퀵정렬 ~ing 9번영상
 
 
 </details>
