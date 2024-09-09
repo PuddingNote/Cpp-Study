@@ -448,6 +448,18 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter09 [Priority Queue, Heap]\Priority Queue %28UsefulHeap 연동%29">
       <UniqueIdentifier>{ccdd6916-8e32-4717-886b-42fb530555d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]">
+      <UniqueIdentifier>{a9647236-aabb-40ad-92db-48d2e51f3329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\단순">
+      <UniqueIdentifier>{8ff1536f-f40c-456e-af4c-696b7beb113e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\복잡">
+      <UniqueIdentifier>{a341107f-e01f-4a94-a882-36da3fe022a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\복잡\HeapSort %28UsefulHeap 연동%29">
+      <UniqueIdentifier>{74349a5a-584b-421d-bd73-1680fa56adef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1499,6 +1511,21 @@
     </ClCompile>
     <ClCompile Include="PriorityQueueMain.c">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter09 [Priority Queue, Heap]\Priority Queue %28UsefulHeap 연동%29</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\단순</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\단순</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\단순</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\복잡\HeapSort %28UsefulHeap 연동%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\복잡</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
