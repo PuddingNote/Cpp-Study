@@ -235,6 +235,17 @@
       - 퀵정렬 Complete
       - 기수정렬 Complete
 
+- Day12
+  - Chapter11 [탐색(Search) 1]
+    - 탐색의 이해와 보간 탐색 Complete
+    - 이진 탐색 트리 Complete
+  - Chapter12 [탐색(Search) 2]
+    - 균형 잡힌 이진 탐색 트리: AVL 트리의 이해 Complete
+    - 균형 잡힌 이진 탐색 트리: AVL 트리의 구현 Complete
+      - AVL 트리 삽입 과정에서의 리밸런싱 기능에 대한 완성 Complete
+  - Chapter13 [테이블(Table)과 해쉬(Hash)]
+    - 빠른 탐색을 보이는 해쉬 테이블 ~ing 2번영상
+
 
 
 </details>
