@@ -463,6 +463,15 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\복잡\RadixSort">
       <UniqueIdentifier>{d1822f4d-6348-4926-be06-36115c0cb0a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]">
+      <UniqueIdentifier>{82015ce6-bec9-4a54-adab-c82c22148869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTree">
+      <UniqueIdentifier>{2d50f254-d2ea-4f11-98e3-4294453d35ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTreeDelAdded">
+      <UniqueIdentifier>{8aaf7bc8-2554-4fac-9f8c-ca1658663cba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1539,6 +1548,24 @@
     <ClCompile Include="ListBaseQueue.c">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\복잡\RadixSort</Filter>
     </ClCompile>
+    <ClCompile Include="11.BinaryTree2.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTreeMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree2.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTreeDelAdded</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTreeDelMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTreeDelAdded</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree3.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTreeDelAdded</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -1660,6 +1687,18 @@
     </ClInclude>
     <ClInclude Include="ListBaseQueue.h">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter10 [Sorting]\복잡\RadixSort</Filter>
+    </ClInclude>
+    <ClInclude Include="11.BinaryTree2.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree2.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTreeDelAdded</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree3.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter11 [BinarySearchTree]\BinarySearchTreeDelAdded</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
