@@ -478,6 +478,9 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter12 [Search 2]\AVLTree">
       <UniqueIdentifier>{3fa94b1f-1999-41e2-b65a-9f5fc9a0c651}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter13 [Table, Hash]">
+      <UniqueIdentifier>{cb2bea41-1129-4a2c-bd30-274c6140eb72}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
