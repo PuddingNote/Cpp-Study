@@ -3,7 +3,7 @@
 ### ■ 윤성우 열혈 C++ 프로그래밍 개정판 - BOOK
 <details> 
   <summary>일정</summary>
-◆ [+3]2024-08-01 Start ~ 2024-08-17 Read through Once / 2024-08-21 Read through Twice(Finish Book)
+◆ 2024-08-01 Start ~ 2024-08-17 Read through Once / 2024-08-21 Read through Twice(Finish Book)
   
 - Day01
   - Chapter01 [C언어 기반의 C++ 1]
@@ -147,6 +147,7 @@
 </details>
 </br>
 
+
 ### ■ 윤성우의 열혈 자료구조 - PDF
 <details>
   <summary>일정</summary>
@@ -246,10 +247,16 @@
   - Chapter13 [테이블(Table)과 해쉬(Hash)]
     - 빠른 탐색을 보이는 해쉬 테이블 ~ing 2번영상
 
+- Day13
+  - Chapter13
+    - 빠른 탐색을 보이는 해쉬 테이블 Complete
+    - 충돌(Collision) 문제의 해결책 Complete
+
 
 
 </details>
 </br>
+
 
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
@@ -289,6 +296,7 @@
 
 </details>
 </br>
+
 
 ### ■ Effective Modern C++ - BOOK
 <details>
