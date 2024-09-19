@@ -493,6 +493,18 @@
     <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter13 [Table, Hash]\2.TableHashFunction">
       <UniqueIdentifier>{be36084f-e7c4-4caf-9fab-4ed544363a96}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]">
+      <UniqueIdentifier>{2f7447fe-0ddf-4992-bb73-b1adaae68639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\1.ALGraph">
+      <UniqueIdentifier>{77a2461d-72a6-41a2-81c4-f2d2efedfa43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\2.ALGraphDFS">
+      <UniqueIdentifier>{292ba9a2-b7f6-4a87-b431-4dac944f6d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\3.ALGraphBFS">
+      <UniqueIdentifier>{722a3e7c-a576-4739-b694-ba00d802830c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1. HelloWorld.cpp">
@@ -1623,6 +1635,33 @@
     <ClCompile Include="TableHashFunction.c">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter13 [Table, Hash]\2.TableHashFunction</Filter>
     </ClCompile>
+    <ClCompile Include="ALGraph.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\1.ALGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="AlGraphMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\1.ALGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="14.DLinkedList.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]</Filter>
+    </ClCompile>
+    <ClCompile Include="ALGraphDFS.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\2.ALGraphDFS</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBaseStack.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\2.ALGraphDFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFSMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\2.ALGraphDFS</Filter>
+    </ClCompile>
+    <ClCompile Include="ALGraphBFS.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\3.ALGraphBFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BFSMain.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\3.ALGraphBFS</Filter>
+    </ClCompile>
+    <ClCompile Include="14.CircularQueue.c">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
@@ -1783,6 +1822,24 @@
     </ClInclude>
     <ClInclude Include="DLinkedList2.h">
       <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter13 [Table, Hash]\4.ChainedHashTable %283.Person 사용%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ALGraph.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\1.ALGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="14.DLinkedList.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]</Filter>
+    </ClInclude>
+    <ClInclude Include="ALGraphDFS.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\2.ALGraphDFS</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBaseStack.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\2.ALGraphDFS</Filter>
+    </ClInclude>
+    <ClInclude Include="ALGraphBFS.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]\3.ALGraphBFS</Filter>
+    </ClInclude>
+    <ClInclude Include="14.CircularQueue.h">
+      <Filter>소스 파일\2. 윤성우 열혈 자료구조\Chapter14 [Graph]</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
