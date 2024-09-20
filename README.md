@@ -151,7 +151,7 @@
 ### ■ 윤성우의 열혈 자료구조 - PDF
 <details>
   <summary>일정</summary>
-◆ 2024-08-22 Start ~ 
+◆ 2024-08-22 Start ~ 2024-09-20 Read through Once
 
 - Day01
   - Chapter01 [자료구조와 알고리즘의 이해]
@@ -258,7 +258,10 @@
     - 인접 리스트 기반의 그래프 구현 Complete
     - 그래프의 탐색 Complete
 
-
+- Day15
+  - Chapter14
+    - 최소 비용 신장 트리 Complete
+  - Book read through Once
 
 </details>
 </br>
@@ -297,6 +300,10 @@
 - Day04
   - Chapter05
     - Section 2 Complete / Prac 다시 풀어보기 (-)
+
+- Day05
+  - Chapter06 [시퀀스 컨테이너]
+    - Section 1 ~ing
 
 </details>
 </br>
