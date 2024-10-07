@@ -1737,6 +1737,24 @@
     <ClCompile Include="6-17.cpp">
       <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter06\1</Filter>
     </ClCompile>
+    <ClCompile Include="6-18.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter06\1</Filter>
+    </ClCompile>
+    <ClCompile Include="6-19.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter06\1</Filter>
+    </ClCompile>
+    <ClCompile Include="6-20.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter06\1</Filter>
+    </ClCompile>
+    <ClCompile Include="6-21.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter06\1</Filter>
+    </ClCompile>
+    <ClCompile Include="6-22.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter06\1</Filter>
+    </ClCompile>
+    <ClCompile Include="6-23.cpp">
+      <Filter>소스 파일\3. 뇌를 자극하는 C++ STL\Chapter06\1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01-4. Prac-3.h">
