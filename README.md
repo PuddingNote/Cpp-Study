@@ -305,7 +305,13 @@
 
 - Day05
   - Chapter06 [시퀀스 컨테이너]
-    - Section 1 ~ing
+    - Section 1 1~17 Complete
+    - 18 ~ing
+
+- Day6
+  - Chapter06
+    - 18~23 Complete
+    - 24 ~ing
 
 
 </details>
