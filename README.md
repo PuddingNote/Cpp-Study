@@ -3,73 +3,72 @@
 ### ■ 윤성우 열혈 C++ 프로그래밍 개정판 - BOOK
 <details> 
   <summary>일정</summary>
-◆ 2024-08-01 Start ~ 2024-08-17 Read through Once / 2024-08-21 Read through Twice(Finish Book)
-  
-- Day01
+
+- Day01 [2024-08-01]
   - Chapter01 [C언어 기반의 C++ 1]
     - 1~6 Complete
   - Chapter02 [C언어 기반의 C++ 2]
     - 1~3 Complete
 
-- Day02
+- Day02 [2024-08-02]
   - Chapter02
     - 4~6 Complete
       - Page 95~96 - Prac-3 / 책 완독 후 한번 더 풀어보기 (O)
   - Chapter03 [클래스의 기본]
     - 1 ~ing
 
-- Day03
+- Day03 [2024-08-03]
   - Chapter03
     - 1 Complete
     - 2 ~ing
 
-- Day04
+- Day04 [2024-08-04]
   - Chapter03
     - 2~3 Complete
   - Chapter04 [클래스의 완성]
     - 1 Complete
     - 2 ~ing
 
-- Day05
+- Day05 [2024-08-05]
   - Chapter04
     - 2~5 Complete
       - Page 199~201 - Self-Reference의 반환 / 책 완독 후 한번 더 공부하기 (O)
   - Chapter05 [복사 생성자]
     - 1 ~ing
 
-- Day06
+- Day06 [2024-08-06]
   - Chapter05
     - 1~4 Complete
   - Chapter06 [friend와 static 그리고 const]
     - 1~2 Complete
     - 3 ~ing
 
-- Day07
+- Day07 [2024-08-07]
   - Chapter06
     - 3~4 Complete
   - Chapter07 [상속의 이해]
     - 1~3 Complete
     - 4 ~ing
 
-- Day08
+- Day08 [2024-08-08]
   - Chapter07
     - 4~5 Complete
   - Chapter08 [상속과 다형성]
     - 1 Complete
     - 2 ~ing
 
-- Day09
+- Day09 [2024-08-09]
   - Chapter08
     - 2~4 Complete
   - Chapter09 [가상의 원리와 다중상속]
     - 1 ~ing
 
-- Day10
+- Day10 [2024-08-11]
   - Chapter09
     - 1 Complete
     - 2 ~ing
 
-- Day11
+- Day11 [2024-08-12]
   - Chapter09
     - 2~3 Complete
       - Page 394 - OOP Project07 / AccountHandler.cpp 의 소멸자 오류 분석 필요 (O)
@@ -79,7 +78,7 @@
   - Chapter11 [연산자 오버로딩 2]
     - 1 ~ing
 
-- Day12
+- Day12 [2024-08-13]
   - Chapter11
     - 1~4 Complete
       - Page 468 - Prac-2-2 / 책 완독 후 풀어보기 (O)
@@ -93,7 +92,7 @@
   - Chapter12 [String 클래스의 디자인]
     - 1 ~ing
 
-- Day13
+- Day13 [2024-08-14]
   - Chapter12
     - 1~3 Complete
     - Fix OOP Project
@@ -111,7 +110,7 @@
   - Chapter14 [템플릿 2]
     - 1 ~ing
 
-- Day14
+- Day14 [2024-08-15]
   - Chapter14
     - 1~4 Complete
   - Chapter15 [예외처리]
@@ -123,19 +122,19 @@
   - Chapter16 [C++ 형 변환 연산자와 맺는 글]
     - 1 ~ing
 
-- Day15
+- Day15 [2024-08-16]
   - Chapter16
     - 1~2 Complete
   - Book read through Once / Start One more read
 
-- Day16
+- Day16 [2024-08-17]
   - Day2, Day5 Complete
   - Day12 ~ing
 
-- Day17
+- Day17 [2024-08-18]
   - Day12 Chapter11-3 ~ing
 
-- Day18
+- Day18 [2024-08-19~21]
   - Day12 Chapter11 Page 469~493 - 11-3 Complete
   - Day13 Chapter13 Page 552~553 - Prac-2 Complete
   - Fix OOP Project
@@ -152,9 +151,8 @@
 ### ■ 윤성우의 열혈 자료구조 - PDF
 <details>
   <summary>일정</summary>
-◆ 2024-08-22 Start ~ 2024-09-20 Read through Once
 
-- Day01
+- Day01 [2024-08-22]
   - Chapter01 [자료구조와 알고리즘의 이해]
     - 순차탐색 / 이진탐색 Complete
     - 빅오 표기법 Complete
@@ -162,31 +160,31 @@
     - 이진탐색 재귀 Complete
     - 하노이타워 ~ing
    
-- Day02
+- Day02 [2024-08-23]
   - Chapter02
     - 하노이타워 Complete / 비선형 자료구조 공부 전 다시 보기 (O)
 
-- Day03
+- Day03 [2024-08-24]
   - Chapter03 [연결 리스트 1]
     - 추상 자료형 Complete
     - 배열을 이용한 리스트 구현 Complete
 
-- Day04
+- Day04 [2024-08-29]
   - Chapter04 [연결 리스트 2]
     - 연결리스트의 개념적인 이해 Complete
 
-- Day05
+- Day05 [2024-08-30]
   - Chapter04
     - 단순연결리스트의 ADT와 구현 Complete
     - 연결 리스트의 정렬 삽입의 구현 Complete / 비선형 자료구조 공부 전 다시 보기 (O)
 
-- Day06
+- Day06 [2024-08-31]
   - Chapter05 [연결 리스트 3]
     - 원형 리스트 Complete
     - 양방향 연결 리스트 ~ing
       - DBDLinkedList.c 구현 ~ing
 
-- Day07
+- Day07 [2024-09-03]
   - Chapter05
     - 양방향 연결 리스트 Complete
       - DBDLinkedList.c 구현 Complete
@@ -196,7 +194,7 @@
     - 스택의 연결 리스트 기반 구현 ~ing
       - CLLBaseStack.c 구현 ~ing
 
-- Day08
+- Day08 [2024-09-04]
   - Chapter06
     - 스택의 연결 리스트 기반 구현 Complete
       - CLLBaseStack.c 구현 Complete
@@ -209,7 +207,7 @@
     - 덱(Deque)의 이해와 구현 Complete
   - 비선형 자료구조 시작 전 선형 자료구조들 다시 한번 복습해보기 (O)
 
-- Day09
+- Day09 [2024-09-05]
   - Chapter08 [트리] - 비선형 자료구조
     - 트리의 개요 Complete
     - 이진 트리의 구현 Complete
@@ -217,7 +215,7 @@
     - 수식 트리(Expression Tree)의 구현 Complete
       - ExpressionTree 폴더 코드들 분석하기 (O)
 
-- Day10
+- Day10 [2024-09-09]
   - Chapter09 [우선순위 큐(Priority Queue)와 힙(Heap)]
     - 우선순위 큐의 이해 Complete
     - 힙의 구현과 우선순위 큐의 완성 Complete
@@ -231,13 +229,13 @@
       - 병합정렬 Complete
       - 퀵정렬 ~ing 9번영상
 
-- Day11
+- Day11 [2024-09-10]
   - Chapter10
     - 복잡하지만 효율적인 정렬 알고리즘 Complete
       - 퀵정렬 Complete
       - 기수정렬 Complete
 
-- Day12
+- Day12 [2024-09-11]
   - Chapter11 [탐색(Search) 1]
     - 탐색의 이해와 보간 탐색 Complete
     - 이진 탐색 트리 Complete
@@ -248,18 +246,18 @@
   - Chapter13 [테이블(Table)과 해쉬(Hash)]
     - 빠른 탐색을 보이는 해쉬 테이블 ~ing 2번영상
 
-- Day13
+- Day13 [2024-09-12]
   - Chapter13
     - 빠른 탐색을 보이는 해쉬 테이블 Complete
     - 충돌(Collision) 문제의 해결책 Complete
 
-- Day14
+- Day14 [2024-09-19]
   - Chapter14 [그래프(Graph)]
     - 그래프의 이해와 종류 Complete
     - 인접 리스트 기반의 그래프 구현 Complete
     - 그래프의 탐색 Complete
 
-- Day15
+- Day15 [2024-09-20]
   - Chapter14
     - 최소 비용 신장 트리 Complete
   - Book read through Once
@@ -272,21 +270,20 @@
 ### ■ 뇌를 자극하는 C++ STL - BOOK
 <details>
   <summary>일정</summary>
-◆ 2024-08-25 Start ~ 
 
-- Day01
+- Day01 [2024-08-25]
   - Chapter01 [STL을 학습하기 전 꼭 알아야할 C++ 문법]
     - Section 1~5 Complete
     - Section 6 ~ing
 
-- Day02
+- Day02 [2024-08-26]
   - Chapter01
     - Section 6~7 Complete
     - Prac Complete
   - Chapter02 [함수 포인터]
     - Section 1 Complete
 
-- Day03
+- Day03 [2024-08-27]
   - Chapter02
     - Section 2~3 Complete
   - Chapter03 [함수 객체]
@@ -299,37 +296,25 @@
     - Section 1 Complete
     - Section 2 ~ing
 
-- Day04
+- Day04 [2024-08-28]
   - Chapter05
     - Section 2 Complete / Prac 다시 풀어보기 (-)
 
-- Day05
+- Day05 [2024-09-20]
   - Chapter06 [시퀀스 컨테이너]
     - Section 1 1~17 Complete
     - Section 1 18 ~ing
 
-- Day6
+- Day6 [2024-10-07]
   - Chapter06
     - Section 1 18~23 Complete
     - Section 1 24 ~ing
 
-- Day7
+- Day7 [2024-10-10]
   - Chapter06
     - Section 1~3 Complete
 
 
-
 </details>
 </br>
 
-
-### ■ Effective Modern C++ - BOOK
-<details>
-  <summary>일정</summary>
-◆ 2024-??-?? Start ~ 
-  
-
-
-
-</details>
-</br>
